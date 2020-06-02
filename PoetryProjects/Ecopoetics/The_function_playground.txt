@@ -1,0 +1,35 @@
+I came here today, and there was a sign posted/placed on the tires saying:
+
+ 
+From 
+the
+River
+to
+Reuse
+
+info
+―570-523-0114―
+
+How is retirement looking for the tires?
+
+We can make three different cycles:
+
+(570)(523)(0114)
+
+		- No repetition allowed
+		(014)
+
+Let alpha be the permutation 	      b/c
+described by these cycles. 	     1-> 1
+Then					             1 -> 4
+
+alpha = (1 2 3 4 5 6)  		 but it should be a function so 
+	    4 3 7 5 2 6		         each input should have a unique output. 
+	    7 0 )
+              0  1
+
+I saw that amazing pool of function with its cycle eddies. On the playground:
+
+Graph (insert playground here.)
+
+What would happen if x said hi to a?
