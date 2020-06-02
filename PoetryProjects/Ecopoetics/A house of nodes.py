@@ -26,7 +26,7 @@ master.title("The house in the mind.")
 
 # Set the image to display as a label in the GUI.
 # --The moon also falls.
-photo = PhotoImage(file="house_of_leaves.gif")
+photo = PhotoImage(file="spiraldesign.gif")
 
 label = Label(master, image=photo).place(x=0, y=0, relwidth=1.0, relheight=1.0, anchor="nw", bordermode="outside")
 
