@@ -5,7 +5,7 @@ This repository contains projects I contributed to or personally completed in so
 ## Table of contents
 * [General info](#general-info)
 * [FlatQuest](#FlatQuest)
-* [Poetry Projects](#Poetry Projects)
+* [Poetry Projects](#PoetryProjects)
 
 ## General Info
 
