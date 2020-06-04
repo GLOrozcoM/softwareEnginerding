@@ -7,8 +7,8 @@
 # --There is nothing new under the moon.
 from tkinter import *
 from tkinter.ttk import *
-from Somnium import *
 
+from Somnium import *
 
 # Overarching master window structure is declared.
 # --On this house of leaves do I grow my trees.

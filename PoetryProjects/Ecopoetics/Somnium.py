@@ -1,12 +1,11 @@
 from random import *
-from time import *
 
 
 class Somnium:
     """Class which takes in a text file and outputs a randomly spaced text
     using randomly chosen words from the text."""
 
-    def __init__(self, file = "Full_text.txt"):
+    def __init__(self, file = "Full_Text.txt"):
         """Specify from which file to take in the words."""
         self.file = file
         self.lines = None
@@ -107,7 +106,7 @@ class Somnium:
 
 
 
-
+# Activate background writing automatically
 crawl = Somnium()
 crawl.maleficus()
 crawl.genesis()
