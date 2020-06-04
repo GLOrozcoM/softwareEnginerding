@@ -394,7 +394,7 @@ def false_path_entry():
     daemon_full_tower()
 
     # Call the dreamer.
-    # -- Mr. Sandman...
+    # -- Mr. Sandman....
     dreamer()
 
     # Create title.
