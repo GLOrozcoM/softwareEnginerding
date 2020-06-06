@@ -96,7 +96,7 @@ In others, it feels eerie.
 
 #### How to access
 
-Navigae to RandomPoetry and open Briefcase.py for code. To see the poetry produced
+Navigate to RandomPoetry and open Briefcase.py for code. To see the poetry produced
 by the code, take a look at any text file having 'Investigate' in it (the Experiments
 directory contains a number of these).
 
