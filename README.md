@@ -42,7 +42,7 @@ The music used for the game is by Dexter Britain and is under a cc license (chec
 
 Is writing code poetry or is poetry writing code? I think the answer is yes. In these projects, I explore how coding aids and eventually becomes poetry.
 
-### Ecopoetics
+### Ecopoetics - poetry about and with the coding environment
 
 I created a GUI as an experiential add on to the poetry I wrote in a college class.
 The overall experience requires an understanding of source code, and a constant back and forth between GUI and source code.
@@ -66,6 +66,8 @@ The final reward is seeing pages of the original handwritten poetry.
 
 ![OriginalPage](Images/OriginalPage.png)
 
+How long will it take you to get there?
+
 #### How to access
 
 Navigate to the Ecopoetics folder and run 'A house of nodes.py'.
@@ -75,8 +77,32 @@ Navigate to the Ecopoetics folder and run 'A house of nodes.py'.
 * tkinter
 * random
 
-### RandomPoetry
+### RandomPoetry - eliminating choice
 
-In RandomPoetry, I make a poetry creator that works by taking pieces of old poetry and randomly producing new poetry. See 'Briefcase.py'.  
+Artists regularly talk about the importance of choice in their work. Photographers choose what
+to take a snapshot of, musicians decide how to combine notes, and coders enjoy free reign in
+designing programs.
+
+I thought having a program decide randomly on what to write poetry about would yield interesting.
+Here's one example.
+
+![SampleRandom](Images/SampleRandom.png)
+
+The program takes previously written poetry and tries to put it together in a new
+random way. In some cases (like above), it almost feels like it could make sense.
+In others, it feels eerie.
+
+![EndgameSample](Images/EndgameSample.png)
+
+#### How to access
+
+Navigae to RandomPoetry and open Briefcase.py for code. To see the poetry produced
+by the code, take a look at any text file having 'Investigate' in it (the Experiments
+directory contains a number of these).
+
+#### Packages used
+
+* random
+
 
 
