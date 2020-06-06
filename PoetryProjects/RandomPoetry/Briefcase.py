@@ -4,7 +4,6 @@
 #  Import statements
 # - I still wish there were more new things under this sun
 import os
-import subprocess
 from random import randint
 from random import sample
 from random import choices
@@ -160,45 +159,3 @@ with open("Full_Text.txt") as eco_file:
 # Perform, now.
 my_bull = randint(1, 3)
 fields(my_bull, ox_lines, eco_lines)
-
-
-print(bang_rev)
-print(boom_rev)
-
-
-### Walking with dust mites
-#with open(bang_set[0]) as f:
- #   og_lines = f.readlines()
-
-#with open(bang_set[1]) as f2:
- #   og_rev_lines = f2.readlines()
-
-# Switch lines
-#og_lines[0] = og_rev_lines[3]
-
-
-### Understand that this is now in the past...
-# Write out the new revised lines
-#outF = open("experiment.txt", "w")
-#outF.writelines(og_lines)
-#outF.close()
-
-### Make note to revise the following or not...
-#print(lines)
-#print(len(lines))
-
-
-### Ruins of a previous metropolis
-#print(bang_set)
-#print(boom_set)
-#print(crash_set)
-
-
-### Make note to revise the following or just leave it there...
-## Decide not to include
-# Open the desired file
-# - On a new adventure we go!
-#subprocess.call(['open', '-a', 'TextEdit', files[3]])
-#subprocess.call(['open', '-a', 'TextEdit', files[7]])
-
-# Simultaneously open these?
