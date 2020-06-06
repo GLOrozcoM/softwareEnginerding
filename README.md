@@ -49,22 +49,22 @@ The overall experience requires an understanding of source code, and a constant 
 
 The first stage of the GUI will leave you perplexed (as it should).
 
-![Entry](images/EntryPoetry.png)
+![Entry](Images/EntryPoetry.png)
 
 You can hover over buttons and see the text change. Clicking on the buttons reveals texts, and you can
 try writing in the search box to see if you can move forward. You'll find that trying to figure out how to
 proceed becomes easier after looking at the source. It may offer hints as how to progress.
 
-![Source](images/Source.png)
+![Source](Images/Source.png)
 
 A text and spacing randomizer also produces poetry every time a button is pressed.
 The randomizer takes text from poetry already written and combines it in unexpected ways.
 
-![Waterfall](images/WaterfallText.png)
+![Waterfall](Images/WaterfallText.png)
 
 The final reward is seeing pages of the original handwritten poetry.
 
-![OriginalPage](images/OriginalPage.png)
+![OriginalPage](Images/OriginalPage.png)
 
 #### How to access
 
