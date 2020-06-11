@@ -9,7 +9,7 @@ This repository contains projects I contributed to or personally completed in so
 
 ## General Info
 
-I wrote the bulk of these projects in college (2017 - 2018). [FlatQuest](#FlatQuest)
+I worked on these projects in college (2017 - 2018). [FlatQuest](#FlatQuest)
 was a culminating project for a software engineering course designed
 to teach fundamental development practices. I GitHubbed and Scrummed for this project in a team with three other undergraduate
 students. [Poetry Projects](#Poetry-projects) arose naturally as part of two poetry courses
@@ -21,13 +21,37 @@ spicing up poetry with computer science (and vice versa) would make everything m
 Inspired by exacting professors and the desire to build a beautiful game, I collaborated in a
 team of four undergraduate students to produce a quirky side scrolling platforming game.
 
+![Level one](Images/LevelOne.png)
+
 The game follows Flatley, a square, as it progresses through various levels in FlatLand.
 I won't spoil the story line here, but we drew a small bit of inspiration from Edwin Abbott's
 book - Flatland, and Thomas Was Alone's narration style.
 
-![Level one](Images/LevelOne.png)
-
 ![Level two](Images/LevelTwo.png)
+
+## Gameplay
+
+![Residential](Images/Residential.png)
+
+● Use ‘WASD’ or the arrow keys to move Flatly around the screen to explore new territory
+
+● Press ‘Q’ to spawn and despawn Flatly’s shadow to assist with high jumps
+
+● ‘SHIFT’ to to switch between controlling Flatly or his shadow
+
+● ‘SPACE’ to pause the game
+
+● Explore the level until Flatly finds a portal in order to proceed to the next level (5 total
+levels)
+
+Tips:
+
+● Read the text to fully immerse yourself in Flatly’s story and world (*** and also get a few
+hints of how to succeed in the game along the way ***)
+
+● Button trick for a high jump: ‘W’ -> ‘Q’ -> ‘W’ -> ‘SHIFT’
+
+● Explore the level to find hidden narration
 
 #### How to access
 
@@ -37,6 +61,10 @@ as an executable so no need for programming IDE's!
 #### Musical notes
 
 The music used for the game is by Dexter Britain and is under a cc license (check him out at www.dexterbritain.com).
+
+#### Packages used
+
+We used Slick2D as the base for the game development.
 
 ## Poetry Projects
 
