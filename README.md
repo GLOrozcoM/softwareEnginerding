@@ -6,6 +6,7 @@ This repository contains projects I contributed to or personally completed in so
 * [General info](#general-info)
 * [FlatQuest](#FlatQuest)
 * [Poetry Projects](#PoetryProjects)
+* [Cover Chess Board](#CoverChessBoard)
 
 ## General Info
 
@@ -132,5 +133,8 @@ directory contains a number of these).
 
 * random
 
+## Cover Chess Board
 
-
+This project is still in development. I intend on developing a GUI to interact with
+pieces on a chess board and classic problems in chess where you have to cover every
+square of the board.
