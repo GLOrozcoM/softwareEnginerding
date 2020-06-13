@@ -5,8 +5,8 @@ This repository contains projects I contributed to or personally completed in so
 ## Table of contents
 * [General info](#general-info)
 * [FlatQuest](#FlatQuest)
-* [Poetry Projects](#PoetryProjects)
-* [Cover Chess Board](#CoverChessBoard)
+* [Poetry Projects](#Poetry-Projects)
+* [Cover Chess Board](#Cover-Chess-Board)
 
 ## General Info
 
