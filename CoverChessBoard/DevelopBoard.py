@@ -14,7 +14,7 @@ If entry reads a 0 display original, 1 shows position of piece.
 from kivy.app import App
 from kivy.uix.button import Button
 from kivy.uix.boxlayout import BoxLayout
-from CoverChessBoard import ChessBoard
+from CoverChessBoard.ChessObjects import ChessBoard
 
 ### Function development begins
 
@@ -92,7 +92,7 @@ def fill_rows():
 class Board(App):
 
     def build(self):
-        white = [0, 0, 0, 0]
+        white = [1, 1, 1, 1]
         mild_green = [0, 0.6, 0.29, 1]
         chess_board = ChessBoard(white, mild_green)
         print(type(chess_board.squares))

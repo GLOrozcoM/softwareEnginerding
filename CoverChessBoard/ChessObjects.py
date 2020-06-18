@@ -16,9 +16,9 @@ class ChessBoard():
         """
         self.light_color = light_color
         self.dark_color = dark_color
-        self.squares = fill_rows()
+        self.squares = self.fill_rows()
 
-    def make_square(column, square_color):
+    def make_square(self, column, square_color):
         """ Create a single chess square. Square is a button so user can press it and make moves.
 
         :param column: Column in a chess board the square gets placed in
@@ -28,7 +28,7 @@ class ChessBoard():
         column.add_widget(Button(background_normal='',
                                  background_color=square_color))
 
-    def add_squares_to_column(column, color_one, color_two):
+    def add_squares_to_column(self, column, color_one, color_two):
         """
 
         :param column:
@@ -38,9 +38,9 @@ class ChessBoard():
         """
         for i in range(0, 8):
             if (i % 2) == 0:
-                make_square(column, color_one)
+                self.make_square(column, color_one)
             else:
-                make_square(column, color_two)
+                self.make_square(column, color_two)
 
     def make_column(self, parity):
         """
@@ -51,23 +51,23 @@ class ChessBoard():
         column = BoxLayout(orientation='vertical')
         # A column in an odd number must start with with light color and end in dark color
         if parity == 'odd':
-            add_squares_to_column(column, self.light_color, self.dark_color)
+            self.add_squares_to_column(column, self.light_color, self.dark_color)
         # A column in an even number must start with dark color and end in light color
         else:
-            add_squares_to_column(column, self.dark_color, self.light_color)
+            self.add_squares_to_column(column, self.dark_color, self.light_color)
         return column
 
-    def add_column_to_row(row, parity):
+    def add_column_to_row(self, row, parity):
         """
 
         :param row:
         :param parity:
         :return:
         """
-        vertical_buttons = make_column(parity)
+        vertical_buttons = self.make_column(parity)
         row.add_widget(vertical_buttons)
 
-    def fill_rows():
+    def fill_rows(self):
         """
 
         :return:
@@ -75,7 +75,7 @@ class ChessBoard():
         rows = BoxLayout(orientation='horizontal')
         for i in range(0, 8):
             if (i % 2) != 0:
-                add_column_to_row(rows, 'odd')
+                self.add_column_to_row(rows, 'odd')
             else:
-                add_column_to_row(rows, 'even')
+                self.add_column_to_row(rows, 'even')
         return rows
