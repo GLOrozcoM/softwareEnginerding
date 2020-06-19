@@ -51,10 +51,10 @@ class ChessBoard():
         column = BoxLayout(orientation='vertical')
         # A column in an odd number must start with with light color and end in dark color
         if parity == 'odd':
-            self.add_squares_to_column(column, self.light_color, self.dark_color)
+            self.add_squares_to_column(column, self.dark_color, self.light_color)
         # A column in an even number must start with dark color and end in light color
         else:
-            self.add_squares_to_column(column, self.dark_color, self.light_color)
+            self.add_squares_to_column(column, self.light_color, self.dark_color)
         return column
 
     def add_column_to_row(self, row, parity):

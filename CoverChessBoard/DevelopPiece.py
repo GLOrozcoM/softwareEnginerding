@@ -12,6 +12,7 @@ been clicked.
 
 from kivy.app import App
 from kivy.uix.button import Button
+from kivy.uix.togglebutton import ToggleButton
 from kivy.uix.boxlayout import BoxLayout
 from CoverChessBoard.ChessObjects import ChessBoard
 
@@ -32,7 +33,7 @@ def after_color(instance):
 def before_color(instance):
     before_press_color = [1, 0.25, 0.58, 0.58]
 
-class Piece(Button):
+class PieceButton(Button):
 
     def __init__(self, text, color):
         super().__init__(text = text)
@@ -40,6 +41,9 @@ class Piece(Button):
 
         self.before_press_color = color
         self.background_color = self.before_press_color
+
+        # Set pressed down color to original color
+        self.background_down = str(self.background_color)
 
         # Purplish hue
         self.after_press_color = [1, 0.25, 0.58, 0.58]
@@ -49,12 +53,14 @@ class Piece(Button):
     def toggle_press(instance):
         if instance.pressed == 0:
             # Going from unpressed to pressed
+
             # Button has been pressed, after release, so change its color
             instance.background_color = instance.after_press_color
             instance.pressed = 1
             print("Toggled on")
             return
         # Going from pressed to unpressed
+        instance.background_disabled_down = instance.after_press_color
         instance.background_color = instance.before_press_color
         instance.pressed = 0
         print("Toggled off")
@@ -75,13 +81,26 @@ def toggle_press(instance):
     print("Toggled off")
     return
 
+class Piece(ToggleButton):
+
+    def __init__(self, piece_name):
+        super().__init__()
+        self.text = piece_name
+
+    def print_state(self, instance, state_value):
+        if state_value == 'normal':
+            print("the state value is normal")
+        else:
+            print("the state value is down")
+
 class Test(App):
 
     def build(self):
-        button_color = [0, 0, 0, 0]
-        btn1 = Piece('My piece', button_color)
-        btn1.bind(on_release = toggle_press)
-        return btn1
+
+        btn = Piece('Piece')
+        btn.bind(state = btn.print_state)
+
+        return btn
 
 the_piece = Test()
 the_piece.run()
