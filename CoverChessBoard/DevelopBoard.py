@@ -13,6 +13,7 @@ If entry reads a 0 display original, 1 shows position of piece.
 
 from kivy.app import App
 from CoverChessBoard.ChessObjects import ChessBoard
+from CoverChessBoard.ChessObjects import Piece
 
 class GridBoard(App):
 
@@ -21,11 +22,9 @@ class GridBoard(App):
         mild_green = [0, 0.6, 0.29, 1]
         board = ChessBoard(white, mild_green)
 
+        piece = Piece("Piece", [1, 0, 0, 1])
 
-        # Get first square, matrix -> 1, 1
-        single_square = board.find_square(8, 8)
-        print(single_square.position)
-        print(single_square)
+        board = board.place_piece(1, 1, piece)
 
         return board.squares
 
