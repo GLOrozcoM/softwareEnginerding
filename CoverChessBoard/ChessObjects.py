@@ -1,12 +1,19 @@
-"""
-Prototype class for chess board to use
-"""
-
 from kivy.uix.button import Button
-from kivy.uix.boxlayout import BoxLayout
+from kivy.uix.gridlayout import GridLayout
 
+class Square(Button):
+
+    def __init__(self, text, color):
+        super().__init__(text = text)
+        self.background_color = color
+        # Position on the board in matrix notation
+        # - Starting from 0th row
+        self.position = text
 
 class ChessBoard():
+    """
+    Setup squares as a grid
+    """
 
     def __init__(self, light_color, dark_color):
         """ Instantiate colors for the board
@@ -16,66 +23,40 @@ class ChessBoard():
         """
         self.light_color = light_color
         self.dark_color = dark_color
-        self.squares = self.fill_rows()
+        self.squares = self.make_board(light_color, dark_color)
 
-    def make_square(self, column, square_color):
-        """ Create a single chess square. Square is a button so user can press it and make moves.
+    def make_square(self, text, color):
+        return Square(text, color)
 
-        :param column: Column in a chess board the square gets placed in
-        :param square_color: Color of the square
-        :return: None
-        """
-        column.add_widget(Button(background_normal='',
-                                 background_color=square_color))
-
-    def add_squares_to_column(self, column, color_one, color_two):
-        """
-
-        :param column:
-        :param color_one:
-        :param color_two:
-        :return:
-        """
+    def make_board(self, light_color, dark_color):
+        board = GridLayout(cols=8)
         for i in range(0, 8):
-            if (i % 2) == 0:
-                self.make_square(column, color_one)
-            else:
-                self.make_square(column, color_two)
+            for j in range(0, 8):
+                sum = i + j
+                if (sum % 2) == 0:
+                    text = str(i + 1) + str(j + 1)
+                    square = self.make_square(text, light_color)
+                    board.add_widget(square)
+                else:
+                    text = str(i + 1) + str(j + 1)
+                    square = self.make_square(text, dark_color)
+                    board.add_widget(square)
+        return board
 
-    def make_column(self, parity):
-        """
+    def find_square(self, i, j):
+        """ Get the square in ith row, jth column in the board.
+        Starting from 1st row
 
-        :param parity:
+        :param i: Row
+        :param j: Column
         :return:
         """
-        column = BoxLayout(orientation='vertical')
-        # A column in an odd number must start with with light color and end in dark color
-        if parity == 'odd':
-            self.add_squares_to_column(column, self.dark_color, self.light_color)
-        # A column in an even number must start with dark color and end in light color
-        else:
-            self.add_squares_to_column(column, self.light_color, self.dark_color)
-        return column
 
-    def add_column_to_row(self, row, parity):
-        """
+        for square in self.squares.children:
+            # Position encoded from 0th row
+            position = str(i) + str(j)
+            if position == square.position:
+                return square
+        print("Invalid entry combo for i and j")
+        return None
 
-        :param row:
-        :param parity:
-        :return:
-        """
-        vertical_buttons = self.make_column(parity)
-        row.add_widget(vertical_buttons)
-
-    def fill_rows(self):
-        """
-
-        :return:
-        """
-        rows = BoxLayout(orientation='horizontal')
-        for i in range(0, 8):
-            if (i % 2) != 0:
-                self.add_column_to_row(rows, 'odd')
-            else:
-                self.add_column_to_row(rows, 'even')
-        return rows

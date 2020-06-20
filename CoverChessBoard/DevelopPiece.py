@@ -22,65 +22,6 @@ Right after release: on_release
 Abled or disabled (state): state
 """
 
-# I want to change the color of the button after pressing it.
-# Until pressed again.
-# Toggle ultimately...
-def after_color(instance):
-    after_press_color = [1, 0.25, 0.58, 0.58]
-    print("Changing color of button")
-    instance.background_color = after_press_color
-
-def before_color(instance):
-    before_press_color = [1, 0.25, 0.58, 0.58]
-
-class PieceButton(Button):
-
-    def __init__(self, text, color):
-        super().__init__(text = text)
-        self.pressed = 0
-
-        self.before_press_color = color
-        self.background_color = self.before_press_color
-
-        # Set pressed down color to original color
-        self.background_down = str(self.background_color)
-
-        # Purplish hue
-        self.after_press_color = [1, 0.25, 0.58, 0.58]
-
-    # TODO simplify with bitwise operations
-    # TODO get background to not jump to disable background at all, blue between before and after colors
-    def toggle_press(instance):
-        if instance.pressed == 0:
-            # Going from unpressed to pressed
-
-            # Button has been pressed, after release, so change its color
-            instance.background_color = instance.after_press_color
-            instance.pressed = 1
-            print("Toggled on")
-            return
-        # Going from pressed to unpressed
-        instance.background_disabled_down = instance.after_press_color
-        instance.background_color = instance.before_press_color
-        instance.pressed = 0
-        print("Toggled off")
-        return
-
-
-def toggle_press(instance):
-    if instance.pressed == 0:
-        # Going from unpressed to pressed
-        # Button has been pressed, after release, so change its color
-        instance.background_color = instance.after_press_color
-        instance.pressed = 1
-        print("Toggled on")
-        return
-    # Going from pressed to unpressed
-    instance.background_color = instance.before_press_color
-    instance.pressed = 0
-    print("Toggled off")
-    return
-
 class Piece(ToggleButton):
 
     def __init__(self, piece_name):
