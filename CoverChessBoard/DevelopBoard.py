@@ -12,13 +12,12 @@ If entry reads a 0 display original, 1 shows position of piece.
 """
 
 from kivy.app import App
-from CoverChessBoard.ChessObjects import ChessBoard
+from CoverChessBoard.ChessObjects import SquaresLayout
 from CoverChessBoard.ChessObjects import Piece
 from CoverChessBoard.ChessObjects import Square
 
-# TODO remove square from board function
 
-class GridBoard(App):
+class BoardAndPiece(App):
 
     def string_coordinate_to_number(self, ij):
         i = int(ij[0])
@@ -56,8 +55,10 @@ class GridBoard(App):
         for square in board.children:
             if isinstance(square, Piece):
                 piece = square
+                if piece.state == "normal":
+                    # Nothing occurs since the piece hasn't been selected
+                    return
                 self.replace_piece_square(board, square)
-
         # Remove the old square, place new piece there
         self.place_piece_at_index(instance, piece, current_square_index, board)
 
@@ -80,10 +81,12 @@ class GridBoard(App):
         # Create the board
         white = [1, 1, 1, 1]
         mild_green = [0, 0.6, 0.29, 1]
-        board = ChessBoard(white, mild_green)
+        board = SquaresLayout(white, mild_green)
 
         # Give the board a piece
-        piece = Piece("Piece", [1, 0, 0, 1])
+        piece = Piece(color = [1, 1, 1, 1])
+        piece.background_normal = "images/figurine.jpg"
+        piece.background_down = "images/figurine_down.jpg"
         board = board.place_piece(1, 1, piece)
 
         self.bind_squares_in_board(board)
@@ -91,5 +94,5 @@ class GridBoard(App):
         return board.squares
 
 
-board = GridBoard()
-board.run()
+g = BoardAndPiece()
+g.run()

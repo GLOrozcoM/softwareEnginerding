@@ -13,14 +13,16 @@ class Square(Button):
 
 class Piece(ToggleButton):
 
-    def __init__(self, piece_name, color, square = None):
+    def __init__(self, piece_name = "", color = "", square = None, image_up = "", image_down = ""):
         super().__init__()
         self.text = piece_name
         self.background_color = color
         # Where the piece is placed on the board
         self.square = square
+        #self.background_normal = image_up
+        #self.background_down = image_down
 
-class ChessBoard():
+class SquaresLayout():
     """
     Setup squares as a grid
     """
@@ -33,9 +35,11 @@ class ChessBoard():
         """
         self.light_color = light_color
         self.dark_color = dark_color
-        self.squares = self.make_board(light_color, dark_color)
 
-        # Assuming only a single piece will ever a be on the board
+        # Squares given in a GridLayout
+        self.squares = self.make_squares(light_color, dark_color)
+
+        # Assuming only a single piece will ever a be on the squares
         self.piece = None
 
     def place_piece(self, i, j, piece):
@@ -53,20 +57,20 @@ class ChessBoard():
     def make_square(self, text, color):
         return Square(text, color)
 
-    def make_board(self, light_color, dark_color):
-        board = GridLayout(cols = 8)
+    def make_squares(self, light_color, dark_color):
+        grid = GridLayout(cols = 8)
         for i in range(0, 8):
             for j in range(0, 8):
                 sum = i + j
                 if (sum % 2) == 0:
                     text = str(i + 1) + str(j + 1)
                     square = self.make_square(text, light_color)
-                    board.add_widget(square)
+                    grid.add_widget(square)
                 else:
                     text = str(i + 1) + str(j + 1)
                     square = self.make_square(text, dark_color)
-                    board.add_widget(square)
-        return board
+                    grid.add_widget(square)
+        return grid
 
     def find_square(self, i, j):
         """ Get the square in ith row, jth column in the board.
@@ -76,7 +80,6 @@ class ChessBoard():
         :param j: Column
         :return:
         """
-
         for square in self.squares.children:
             # Position encoded from 0th row
             position = str(i) + str(j)
