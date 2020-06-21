@@ -9,6 +9,8 @@ If entry reads a 0 display original, 1 shows position of piece.
 - Multiple buttons, with the "piece button". Possible class of board.
 --> Create a board of buttons.
 
+Images for pieces: https://pixabay.com/illustrations/chess-chess-pieces-shah-mat-pawn-2490568/
+
 """
 
 from kivy.app import App
@@ -85,8 +87,8 @@ class BoardAndPiece(App):
 
         # Give the board a piece
         piece = Piece(color = [1, 1, 1, 1])
-        piece.background_normal = "images/figurine.jpg"
-        piece.background_down = "images/figurine_down.jpg"
+        piece.background_normal = "images/knight_up.png"
+        piece.background_down = "images/knight_down.png"
         board = board.place_piece(1, 1, piece)
 
         self.bind_squares_in_board(board)
