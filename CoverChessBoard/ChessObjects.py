@@ -11,20 +11,14 @@ class Square(Button):
         # - Starting from 0th row
         self.position = text
 
-
-
 class Piece(ToggleButton):
 
-    def __init__(self, piece_name, color):
+    def __init__(self, piece_name, color, square = None):
         super().__init__()
         self.text = piece_name
         self.background_color = color
-
-    def print_state(self, instance, state_value):
-        if state_value == 'normal':
-            print("the state value is normal")
-        else:
-            print("the state value is down")
+        # Where the piece is placed on the board
+        self.square = square
 
 class ChessBoard():
     """
@@ -48,6 +42,7 @@ class ChessBoard():
         self.piece = piece
 
         square = self.find_square(i, j)
+        self.piece.square = square
         index_of_square = self.squares.children.index(square)
 
         self.squares.remove_widget(square)
@@ -59,7 +54,7 @@ class ChessBoard():
         return Square(text, color)
 
     def make_board(self, light_color, dark_color):
-        board = GridLayout(cols=8)
+        board = GridLayout(cols = 8)
         for i in range(0, 8):
             for j in range(0, 8):
                 sum = i + j
