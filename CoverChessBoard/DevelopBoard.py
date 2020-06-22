@@ -9,15 +9,13 @@ If entry reads a 0 display original, 1 shows position of piece.
 - Multiple buttons, with the "piece button". Possible class of board.
 --> Create a board of buttons.
 
-Images for pieces: https://pixabay.com/illustrations/chess-chess-pieces-shah-mat-pawn-2490568/
+
 
 """
 
 from kivy.app import App
-from CoverChessBoard.ChessObjects import SquaresLayout
-from CoverChessBoard.ChessObjects import Piece
-from CoverChessBoard.ChessObjects import Square
-
+from CoverChessBoard.BoardSquares import *
+from CoverChessBoard.ChessPieces import *
 
 class BoardAndPiece(App):
 
@@ -36,6 +34,9 @@ class BoardAndPiece(App):
         piece.square = square
         children.add_widget(piece, index)
 
+        # Recalculate the possible moves for the piece
+        piece.make_move_list(children)
+
         return children
 
     def color_square(self, position):
@@ -52,17 +53,25 @@ class BoardAndPiece(App):
         current_square_index = board.children.index(instance)
 
         # TODO find faster way to select a piece from the board
+        # TODO "piece" could become a hanging variable
         # --> a way to pass the board object and then immediately select the piece.
         # --> find out how to use lambda and partial
+
+        # Got the piece
         for square in board.children:
             if isinstance(square, Piece):
                 piece = square
-                if piece.state == "normal":
-                    # Nothing occurs since the piece hasn't been selected
-                    return
-                self.replace_piece_square(board, square)
-        # Remove the old square, place new piece there
-        self.place_piece_at_index(instance, piece, current_square_index, board)
+
+        # Make sure the square that got pressed is in the list of possible moves for the piece
+        if instance in piece.possible_moves:
+            if piece.state == "normal":
+            # Nothing occurs since the piece hasn't been selected
+                return
+
+            # Remove the piece, place a new square there
+            self.replace_piece_square(board, piece)
+            # Remove the old square, place piece there
+            self.place_piece_at_index(instance, piece, current_square_index, board)
 
     def replace_piece_square(self, board, piece):
         occupied_square_index = board.children.index(piece)
@@ -80,16 +89,12 @@ class BoardAndPiece(App):
                 square.bind(on_release = self.square_pressed)
 
     def build(self):
-        # Create the board
         white = [1, 1, 1, 1]
         mild_green = [0, 0.6, 0.29, 1]
         board = SquaresLayout(white, mild_green)
 
-        # Give the board a piece
-        piece = Piece(color = [1, 1, 1, 1])
-        piece.background_normal = "images/knight_up.png"
-        piece.background_down = "images/knight_down.png"
-        board = board.place_piece(1, 1, piece)
+        p = King()
+        board = board.piece_starting_point(8, 8, p)
 
         self.bind_squares_in_board(board)
 

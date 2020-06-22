@@ -9,7 +9,7 @@ from kivy.app import App
 from kivy.uix.button import Button
 from kivy.uix.togglebutton import ToggleButton
 from kivy.uix.boxlayout import BoxLayout
-from CoverChessBoard.ChessObjects import SquaresLayout
+from CoverChessBoard.BoardSquares import SquaresLayout
 
 class Board(App):
 

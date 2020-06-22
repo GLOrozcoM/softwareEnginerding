@@ -1,26 +1,18 @@
 from kivy.uix.button import Button
 from kivy.uix.gridlayout import GridLayout
-from kivy.uix.togglebutton import ToggleButton
 
 class Square(Button):
 
-    def __init__(self, text, color):
-        super().__init__(text = text)
+    def __init__(self, ij, color):
+        super().__init__(text = ij)
         self.background_color = color
         # Position on the board in matrix notation
-        # - Starting from 0th row
-        self.position = text
-
-class Piece(ToggleButton):
-
-    def __init__(self, piece_name = "", color = "", square = None, image_up = "", image_down = ""):
-        super().__init__()
-        self.text = piece_name
-        self.background_color = color
-        # Where the piece is placed on the board
-        self.square = square
-        #self.background_normal = image_up
-        #self.background_down = image_down
+        # - Starting from 1th row, 1st column
+        self.position = ij
+        # Row
+        self.i = int(ij[0])
+        # Column
+        self.j = int(ij[1])
 
 class SquaresLayout():
     """
@@ -42,7 +34,7 @@ class SquaresLayout():
         # Assuming only a single piece will ever a be on the squares
         self.piece = None
 
-    def place_piece(self, i, j, piece):
+    def piece_starting_point(self, i, j, piece):
         self.piece = piece
 
         square = self.find_square(i, j)
@@ -52,10 +44,14 @@ class SquaresLayout():
         self.squares.remove_widget(square)
         self.squares.add_widget(piece, index_of_square)
 
+        # Determine which squares the piece can move to on the board
+        self.piece.make_move_list(self.squares)
+
         return self
 
     def make_square(self, text, color):
-        return Square(text, color)
+        square = Square(text, color)
+        return square
 
     def make_squares(self, light_color, dark_color):
         grid = GridLayout(cols = 8)
