@@ -93,8 +93,8 @@ class BoardAndPiece(App):
         mild_green = [0, 0.6, 0.29, 1]
         board = SquaresLayout(white, mild_green)
 
-        p = King()
-        board = board.piece_starting_point(8, 8, p)
+        p = Knight()
+        board = board.piece_starting_point(7, 8, p)
 
         self.bind_squares_in_board(board)
 
