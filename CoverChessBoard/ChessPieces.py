@@ -89,6 +89,32 @@ class King(Piece):
         self.background_normal = "images/king_up.png"
         self.background_down = "images/king_down.png"
 
+        # Assuming a start at 11 in matrix
+        self.column_algorithmic_solution = self.make_column_algorithmic_solution()
+
+    def forward_row_step(self, j):
+        column = []
+        for i in range(1, 9):
+            column.append(str(i) + str(j))
+        return column
+
+    def backward_row_step(self, j):
+        column = []
+        for i in range(8, 0, -1):
+            column.append(str(i) + str(j))
+        return column
+
+    def make_column_algorithmic_solution(self):
+        full_move_list = []
+        for j in range(1, 9):
+            if (j % 2) == 0:
+                backward = self.backward_row_step(j)
+                full_move_list += backward
+            else:
+                forward = self.forward_row_step(j)
+                full_move_list += forward
+        return full_move_list
+
     def make_move_list(self, squares):
         assert self.square is not None, "The piece isn't on a square yet"
 
@@ -120,6 +146,32 @@ class Queen(Piece):
         super().__init__(color = [1, 1, 1, 1])
         self.background_normal = "images/queen_up.png"
         self.background_down = "images/queen_down.png"
+
+        # Assuming a start at 11 in matrix
+        self.column_algorithmic_solution = self.make_column_algorithmic_solution()
+
+    def forward_row_step(self, j):
+        column = []
+        for i in range(1, 9):
+            column.append(str(i) + str(j))
+        return column
+
+    def backward_row_step(self, j):
+        column = []
+        for i in range(8, 0, -1):
+            column.append(str(i) + str(j))
+        return column
+
+    def make_column_algorithmic_solution(self):
+        full_move_list = []
+        for j in range(1, 9):
+            if (j % 2) == 0:
+                backward = self.backward_row_step(j)
+                full_move_list += backward
+            else:
+                forward = self.forward_row_step(j)
+                full_move_list += forward
+        return full_move_list
 
     def make_move_list(self, squares):
         assert self.square is not None, "The piece isn't on a square yet"
@@ -166,6 +218,32 @@ class Rook(Piece):
         super().__init__(color = [1, 1, 1, 1])
         self.background_normal = "images/rook_up.png"
         self.background_down = "images/rook_down.png"
+
+        # Assuming a start at 11 in matrix
+        self.column_algorithmic_solution = self.make_column_algorithmic_solution()
+
+    def forward_row_step(self, j):
+        column = []
+        for i in range(1, 9):
+            column.append(str(i) + str(j))
+        return column
+
+    def backward_row_step(self, j):
+        column = []
+        for i in range(8, 0, -1):
+            column.append(str(i) + str(j))
+        return column
+
+    def make_column_algorithmic_solution(self):
+        full_move_list = []
+        for j in range(1, 9):
+            if (j % 2) == 0:
+                backward = self.backward_row_step(j)
+                full_move_list += backward
+            else:
+                forward = self.forward_row_step(j)
+                full_move_list += forward
+        return full_move_list
 
     def make_move_list(self, squares):
         """ What squares can a piece move to, calculate these.

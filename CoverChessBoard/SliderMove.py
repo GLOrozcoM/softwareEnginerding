@@ -82,6 +82,10 @@ class BoardAndPiece(App):
 
         color = self.color_square(piece.square.position)
         occupied_square = Square(piece.square.position, color)
+
+        # Give tint to indicate a piece has already been on this square
+        dark_blue = [0, 0.30, 1, 0.9]
+        occupied_square.background_color = dark_blue
         occupied_square.bind(on_release=self.square_pressed)
 
         board.add_widget(occupied_square, occupied_square_index)
@@ -92,8 +96,6 @@ class BoardAndPiece(App):
                 square.bind(on_release = self.square_pressed)
 
     def move_piece_through_move_list(self, str_coords, board, piece, *largs):
-        print('My callback is called')
-
         # Replace the square of the piece
         # -- where we come from
         self.replace_piece_square(board.squares, piece)
@@ -111,15 +113,15 @@ class BoardAndPiece(App):
         mild_green = [0, 0.6, 0.29, 1]
         board = SquaresLayout(white, mild_green)
 
-        piece = Queen()
+        piece = King()
         board = board.place_piece_on_board(1, 1, piece)
         self.bind_squares_in_board(board)
 
-        move_list = ["18", "88", "11", "55", "88"]
+        move_list = piece.column_algorithmic_solution
         seconds = 1
         for move in move_list:
             Clock.schedule_once(partial(self.move_piece_through_move_list, move, board, piece), seconds)
-            seconds += 1
+            seconds += 0.1
 
         return board.squares
 
