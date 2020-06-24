@@ -34,7 +34,7 @@ class SquaresLayout():
         # Assuming only a single piece will ever a be on the squares
         self.piece = None
 
-    def piece_starting_point(self, i, j, piece):
+    def place_piece_on_board(self, i, j, piece):
         self.piece = piece
 
         square = self.find_square(i, j)

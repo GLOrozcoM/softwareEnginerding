@@ -1,21 +1,24 @@
 """
-Figure out how to create a chess board in Kivy.
-Prototype a solution that makes sense for movement of pieces.
+Interested in making a slider that will move a piece automatically throughout the board.
 
-ideas:
-- Work with a 2d array of 1 and 0. All 0, except 1 is current piece.
-If entry reads a 0 display original, 1 shows position of piece.
-- Track entries this way.
-- Multiple buttons, with the "piece button". Possible class of board.
---> Create a board of buttons.
+Ideas:
+- Slider obejct in Kivy
+- Make a list that has moves, the slider selects positions in the list as it itself moves.
+--> List of positions where we want to move the piece,
 
+Research:
+- Event, how do you make a button click itself?
+Use event or trigger? Do you think?
 
-
+- How do you hook up a slider to an event, button, action?
 """
 
 from kivy.app import App
+from kivy.clock import Clock
 from CoverChessBoard.BoardSquares import *
 from CoverChessBoard.ChessPieces import *
+from functools import partial
+import time
 
 class BoardAndPiece(App):
 
@@ -74,12 +77,6 @@ class BoardAndPiece(App):
             self.place_piece_at_index(instance, piece, current_square_index, board)
 
     def replace_piece_square(self, board, piece):
-        """
-
-        :param board: A grid layout object
-        :param piece:
-        :return:
-        """
         occupied_square_index = board.children.index(piece)
         board.remove_widget(piece)
 
@@ -94,15 +91,35 @@ class BoardAndPiece(App):
             if not isinstance(square, Piece):
                 square.bind(on_release = self.square_pressed)
 
+    def move_piece_through_move_list(self, str_coords, board, piece, *largs):
+        print('My callback is called')
+
+        # Replace the square of the piece
+        # -- where we come from
+        self.replace_piece_square(board.squares, piece)
+
+        # Move the piece
+        # -- where we want to move
+        i, j = self.string_coordinate_to_number(str_coords)
+        destination_square = board.find_square(i, j)
+        children = board.squares
+        index_to_move = board.squares.children.index(destination_square)
+        self.place_piece_at_index(destination_square, piece, index_to_move, children)
+
     def build(self):
         white = [1, 1, 1, 1]
         mild_green = [0, 0.6, 0.29, 1]
         board = SquaresLayout(white, mild_green)
 
-        p = Queen()
-        board = board.place_piece_on_board(1, 1, p)
-
+        piece = Queen()
+        board = board.place_piece_on_board(1, 1, piece)
         self.bind_squares_in_board(board)
+
+        move_list = ["18", "88", "11", "55", "88"]
+        seconds = 1
+        for move in move_list:
+            Clock.schedule_once(partial(self.move_piece_through_move_list, move, board, piece), seconds)
+            seconds += 1
 
         return board.squares
 
