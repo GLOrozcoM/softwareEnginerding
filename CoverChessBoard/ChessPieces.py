@@ -19,6 +19,15 @@ class Piece(ToggleButton):
         pass
 
     def diagonal_moves(self, i, j, other_squares, possible_moves, piece_type):
+        """ For bishop and queen.
+
+        :param i:
+        :param j:
+        :param other_squares:
+        :param possible_moves:
+        :param piece_type:
+        :return:
+        """
         piece_sum_ij = i + j
         piece_diff_ij = i - j
         for square in other_squares:
@@ -29,6 +38,14 @@ class Piece(ToggleButton):
                     possible_moves.append(square)
 
     def row_col_moves(self, other_squares, piece_square, possible_moves, piece_type):
+        """ For rook and queen.
+
+        :param other_squares:
+        :param piece_square:
+        :param possible_moves:
+        :param piece_type:
+        :return:
+        """
         for square in other_squares:
             if not isinstance(square, piece_type):
                 if (piece_square.i == square.i) or (piece_square.j == square.j):
