@@ -1,5 +1,6 @@
 """
 Images for pieces at https://pixabay.com/illustrations/chess-chess-pieces-shah-mat-pawn-2490568/
+and https://pixabay.com/vectors/chess-pieces-set-symbols-game-26774/
 """
 
 from kivy.uix.togglebutton import ToggleButton
@@ -103,7 +104,7 @@ class Bishop(Piece):
 class King(Piece):
     def __init__(self):
         super().__init__(color = [1, 1, 1, 1])
-        self.background_normal = "images/king_up.png"
+        self.background_normal = "images/king_og_up.png"
         self.background_down = "images/king_down.png"
 
         # Assuming a start at 11 in matrix

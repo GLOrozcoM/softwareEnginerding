@@ -139,29 +139,29 @@ class BoardAndPiece(App):
         # Move the piece to ij position on board
         i, j = self.str_ij_to_int(str_ij)
         destination_square = board.find_square(i, j)
-        children = board.squares
+        children = board.squares.children
         index_to_move = children.index(destination_square)
-        self.place_piece_at_index(destination_square, piece, index_to_move, children)
+        self.place_piece_at_index(destination_square, piece, index_to_move, board.squares)
 
     def make_board(self):
         white = [1, 1, 1, 1]
         mild_green = [0, 0.6, 0.29, 1]
-        dim = 8
+        dim = 5
         board = SquaresLayout(white, mild_green, dim)
         return board
 
     def build(self):
         board = self.make_board()
 
-        piece = King()
+        piece = Knight()
         board = board.place_piece_on_board(1, 1, piece)
         self.bind_squares_in_board(board)
 
-        #move_list = piece.column_algorithmic_solution
-        #seconds = 1
-        #for move in move_list:
-         #   Clock.schedule_once(partial(self.move_piece_to_str_ij, move, board, piece), seconds)
-          #  seconds += 0.1
+        move_list = ['11', '23', '15', '34', '55', '43', '51', '32', '13', '21', '42', '54', '35', '14', '22', '41', '53', '45', '24', '12', '31', '52', '44', '25', '33']
+        seconds = 1
+        for move in move_list:
+            Clock.schedule_once(partial(self.move_piece_to_str_ij, move, board, piece), seconds)
+            seconds += 0.1
 
         return board.squares
 
