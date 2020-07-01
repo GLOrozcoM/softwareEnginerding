@@ -18,6 +18,7 @@ from kivy.clock import Clock
 from CoverChessBoard.BoardSquares import *
 from CoverChessBoard.ChessPieces import *
 from functools import partial
+#from Graph import *
 import time
 
 class BoardAndPiece(App):
@@ -157,11 +158,10 @@ class BoardAndPiece(App):
         board = board.place_piece_on_board(1, 1, piece)
         self.bind_squares_in_board(board)
 
-        move_list = ['11', '23', '15', '34', '55', '43', '51', '32', '13', '21', '42', '54', '35', '14', '22', '41', '53', '45', '24', '12', '31', '52', '44', '25', '33']
-        seconds = 1
-        for move in move_list:
-            Clock.schedule_once(partial(self.move_piece_to_str_ij, move, board, piece), seconds)
-            seconds += 0.1
+        #seconds = 1
+        #for move in move_list:
+         #   Clock.schedule_once(partial(self.move_piece_to_str_ij, move, board, piece), seconds)
+          #  seconds += 0.1
 
         return board.squares
 

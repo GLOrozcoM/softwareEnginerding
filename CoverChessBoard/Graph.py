@@ -28,11 +28,8 @@ def knight_moves(i, j, matrix):
             elif (row == i + 1) or (row == i - 1):
                 if (col == j - 2) or (col == j + 2):
                     possible_moves.append(matrix[row - 1][col - 1])
-
-
     return possible_moves
 
-# Generate list of all matrix nodes present
 def generate_n_matrix(n):
     matrix = []
     for i in range(1, n + 1):
@@ -78,14 +75,7 @@ def add_movement_edges(graph, matrix):
             graph.add_edges_from(edges)
     return graph
 
-matrix = generate_n_matrix(8)
-graph = add_matrix_to_graph(matrix)
-
-edges_graph = add_movement_edges(graph, matrix)
-#nx.draw_networkx(edges_graph)
-#plt.show()
-
-def choose_smallest_neighbor(graph, source, visited):
+def get_possible_neighbors(graph, source, visited):
     """ In moves, choose the node that results in smallest number of moves.
 
     :param graph:
@@ -96,19 +86,45 @@ def choose_smallest_neighbor(graph, source, visited):
     subsequent_move_lengths = collections.defaultdict(list)
     for move in adjacent_moves:
         if move not in visited:
-            print("Visited:", visited)
             moves = list(graph.neighbors(move))
-            print("Possible moves:", moves)
             subsequent_move_lengths[move] = len(moves)
-            #print(subsequent_move_lengths)
-    print(subsequent_move_lengths)
-    smallest_move = min(subsequent_move_lengths, key = subsequent_move_lengths.get)
-    return smallest_move
+    return subsequent_move_lengths
+
+def choose_next_move_warnsdorff(graph, source, visited):
+
+    # A dictionary of string moves with associated length for each numbers, matrix
+    next_possible_moves = get_possible_neighbors(graph, source, visited)
+
+    # Find the minimum value for moves
+    minimum_move_number = min(next_possible_moves.values())
+
+    # These moves have the first level smallest moves
+    smallest_moves = [k for k, v in next_possible_moves.items() if v == minimum_move_number]
+    print(smallest_moves)
+
+    # No tie happened, a single minima reached
+    if len(smallest_moves) == 1:
+        print("No tie")
+        return smallest_moves[0]
 
 
+    # A tie occured. Iterate over each move and find smallest possible
+    # Final move returned isn't coming from the original list at times...
+    next_level_moves = collections.defaultdict(list)
+    for move in smallest_moves:
+        visited.add(move)
+        next_neighbors = get_possible_neighbors(graph, move, visited)
+        visited.remove(move)
 
-#next_move = choose_smallest_neighbor(edges_graph, "11")
-#print(next_move)
+        #print("Next neighbors", next_neighbors)
+
+        minimum_next = min(next_neighbors.values())
+
+        next_level_moves[move] = minimum_next
+
+    final_move = min(next_level_moves, key = next_level_moves.get)
+
+    return final_move
 
 def warnsdorff(graph, source):
 
@@ -119,24 +135,31 @@ def warnsdorff(graph, source):
     traversal_node = source
 
     traversed_list = [traversal_node]
-    print(len(graph))
     while len(visited) != len(graph):
-        next_move = choose_smallest_neighbor(graph, traversal_node, visited)
+        next_move = choose_next_move_warnsdorff(graph, traversal_node, visited)
         visited.add(next_move)
         traversed_list.append(next_move)
         traversal_node = next_move
 
-    print("Went through entire list")
+    print("Visited every node on the graph")
     return traversed_list
 
-path = warnsdorff(graph, "11")
+##### Testing ######
+
+matrix = generate_n_matrix(5)
+graph = add_matrix_to_graph(matrix)
+add_movement_edges(graph, matrix)
+
+path = warnsdorff(graph, "44")
+
+#### No square is visited twice
+path_unique = set(path)
+print(len(path_unique) == len(path))
+#####
+
+#### Visited all nodes in graph
+nodes = graph.number_of_nodes()
+print(len(path_unique) == nodes)
+
+
 print(path)
-
-#traversal = list(nx.edge_bfs(edges_graph, "11"))
-#print(traversal)
-#traversal_list_knight = []
-#for pair in traversal:
- #   element = pair[1]
-  #  traversal_list_knight.append(element)
-
-#print(traversal_list_knight)
