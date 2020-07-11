@@ -13,7 +13,6 @@ pop it.
 -> Continue until the end of file or when the vector is empty (we saw every coordinate in the matrix).
 
 Log N solution (amortized?)
--> Use a version of binary search
 
 """
 
@@ -43,6 +42,7 @@ for i in range(1, 9):
 num_lines = len(paths_str)
 print("There are {} solutions in this file.".format(num_lines))
 
+# TODO improve runtime by using a binary search
 for i in range(0, num_lines):
     converted = convert_str_list(paths_str[i])
     path_start = converted[0]
