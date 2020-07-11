@@ -147,7 +147,7 @@ class BoardAndPiece(App):
     def make_board(self):
         white = [1, 1, 1, 1]
         mild_green = [0, 0.6, 0.29, 1]
-        dim = 5
+        dim = 8
         board = SquaresLayout(white, mild_green, dim)
         return board
 
@@ -155,13 +155,15 @@ class BoardAndPiece(App):
         board = self.make_board()
 
         piece = Knight()
-        board = board.place_piece_on_board(1, 1, piece)
+        board = board.place_piece_on_board(1, 3, piece)
         self.bind_squares_in_board(board)
 
-        #seconds = 1
-        #for move in move_list:
-         #   Clock.schedule_once(partial(self.move_piece_to_str_ij, move, board, piece), seconds)
-          #  seconds += 0.1
+        move_list = ['13', '21', '42', '61', '82', '74', '86', '78', '57', '38', '17', '25', '37', '18', '26', '14', '22', '41', '62', '81', '73', '85', '77', '58', '66', '87', '68', '47', '28', '16', '24', '12', '31', '23', '11', '32', '51', '72', '84', '76', '88', '67', '48', '27', '15', '34', '46', '65', '53', '45', '33', '52', '71', '83', '75', '54', '35', '43', '64', '56', '44', '36', '55', '63']
+
+        seconds = 1
+        for move in move_list:
+            Clock.schedule_once(partial(self.move_piece_to_str_ij, move, board, piece), seconds)
+            seconds += 0.1
 
         return board.squares
 
