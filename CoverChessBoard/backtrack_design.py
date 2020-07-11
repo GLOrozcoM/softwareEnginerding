@@ -97,8 +97,6 @@ def backtracker(graph, candidate):
 
     # Could not reject the solution so check if it is indeed a solution
     if accept(graph, candidate):
-        print("Found a solution")
-        print("Showing candidate: ")
         print(candidate)
         return candidate
 

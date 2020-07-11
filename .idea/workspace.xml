@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c82b17f-c229-4ca1-8ca6-040ffe8332a3" name="Default" comment="Made move construction for BIshop, Pawn, Queen, and Knight&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CoverChessBoard/backtrack_design.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CoverChessBoard/stack_backtrack.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CoverChessBoard/test_backtrack_design.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CoverChessBoard/test_dorff.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CoverChessBoard/Graph.py" afterPath="$PROJECT_DIR$/CoverChessBoard/dorff.py" />
+    <list default="true" id="4c82b17f-c229-4ca1-8ca6-040ffe8332a3" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CoverChessBoard/ProcessPaths.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CoverChessBoard/test_eight_board.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CoverChessBoard/SliderMove.py" afterPath="$PROJECT_DIR$/CoverChessBoard/SliderMove.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CoverChessBoard/backtrack_design.py" afterPath="$PROJECT_DIR$/CoverChessBoard/backtrack_design.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CoverChessBoard/test_backtrack_design.py" afterPath="$PROJECT_DIR$/CoverChessBoard/test_backtrack_design.py" />
     </list>
     <ignored path="SoftwareEnginerding.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,8 +68,8 @@
       <file leaf-file-name="backtrack_design.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CoverChessBoard/backtrack_design.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="105" column="32" selection-start-line="105" selection-start-column="32" selection-end-line="105" selection-end-column="32" />
+            <state relative-caret-position="314">
+              <caret line="98" column="32" selection-start-line="98" selection-start-column="32" selection-end-line="98" selection-end-column="32" />
               <folding>
                 <element signature="e#173#1179#0" expanded="false" />
                 <element signature="e#1215#2093#0" expanded="false" />
@@ -81,13 +79,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_backtrack_design.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_backtrack_design.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CoverChessBoard/test_backtrack_design.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="649">
-              <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+            <state relative-caret-position="-1">
+              <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_eight_board.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CoverChessBoard/test_eight_board.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProcessPaths.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CoverChessBoard/ProcessPaths.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="542">
+              <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+              <folding>
+                <element signature="e#604#903#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -127,9 +149,11 @@
         <option value="$PROJECT_DIR$/CoverChessBoard/test_reject.py" />
         <option value="$PROJECT_DIR$/CoverChessBoard/stack_backtrack.py" />
         <option value="$PROJECT_DIR$/CoverChessBoard/test_dorff.py" />
+        <option value="$PROJECT_DIR$/CoverChessBoard/SliderMove.py" />
         <option value="$PROJECT_DIR$/CoverChessBoard/test_backtrack_design.py" />
         <option value="$PROJECT_DIR$/CoverChessBoard/backtrack_design.py" />
-        <option value="$PROJECT_DIR$/CoverChessBoard/SliderMove.py" />
+        <option value="$PROJECT_DIR$/CoverChessBoard/test_eight_board.py" />
+        <option value="$PROJECT_DIR$/CoverChessBoard/ProcessPaths.py" />
       </list>
     </option>
   </component>
@@ -195,23 +219,49 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SoftwareEnginerding" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SoftwareEnginerding" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CoverChessBoard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PathsOutput" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Data_Science_Projects/README.md" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="SoftwareEnginerding" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="SoftwareEnginerding" />
+      </console-settings>
+    </option>
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/CoverChessBoard/images" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.SliderMove">
+  <component name="RunManager" selected="Python.ProcessPaths">
     <configuration default="false" name="SliderMove" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -225,23 +275,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="SoftwareEnginerding" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CoverChessBoard/SliderMove.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Graph" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CoverChessBoard" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="SoftwareEnginerding" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CoverChessBoard/dorff.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -280,7 +313,8 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="test_reject" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="test_eight_board" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <output_file path="$PROJECT_DIR$/CoverChessBoard/PathsOutput/back_out.txt" is_save="true" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -292,7 +326,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="SoftwareEnginerding" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CoverChessBoard/test_backtrack_design.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CoverChessBoard/test_eight_board.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ProcessPaths" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CoverChessBoard" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="SoftwareEnginerding" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CoverChessBoard/ProcessPaths.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -431,20 +482,39 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.SliderMove" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Graph" />
+    <configuration default="false" name="test_reject" type="PythonConfigurationType" factoryName="Python">
+      <output_file path="$PROJECT_DIR$/CoverChessBoard/PathsOutput/back_out.txt" is_save="true" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CoverChessBoard" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="SoftwareEnginerding" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CoverChessBoard/test_backtrack_design.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Python.test_reject" />
+      <item index="1" class="java.lang.String" itemvalue="Python.SliderMove" />
       <item index="2" class="java.lang.String" itemvalue="Python.backtrack_design" />
       <item index="3" class="java.lang.String" itemvalue="Python.test_dorff" />
-      <item index="4" class="java.lang.String" itemvalue="Python.test_reject" />
+      <item index="4" class="java.lang.String" itemvalue="Python.test_eight_board" />
+      <item index="5" class="java.lang.String" itemvalue="Python.ProcessPaths" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.SliderMove" />
-        <item index="1" class="java.lang.String" itemvalue="Python.test_reject" />
-        <item index="2" class="java.lang.String" itemvalue="Python.backtrack_design" />
-        <item index="3" class="java.lang.String" itemvalue="Python.test_dorff" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Graph" />
+        <item index="0" class="java.lang.String" itemvalue="Python.ProcessPaths" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test_eight_board" />
+        <item index="2" class="java.lang.String" itemvalue="Python.SliderMove" />
+        <item index="3" class="java.lang.String" itemvalue="Python.backtrack_design" />
+        <item index="4" class="java.lang.String" itemvalue="Python.test_dorff" />
       </list>
     </recent_temporary>
   </component>
@@ -683,7 +753,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593645183997</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Experimenting with backtracking algorithm on 5 and 8 dim board&#10;">
+      <created>1594492115695</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1594492115695</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -728,26 +805,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1432" height="797" extended-state="6" />
+    <frame x="0" y="23" width="1432" height="797" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20056698" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36595744" sideWeight="0.5081502" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36595744" sideWeight="0.51098514" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3319149" sideWeight="0.4946846" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.4946846" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36595744" sideWeight="0.4890149" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24946846" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.4975195" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36595744" sideWeight="0.49184975" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.4975195" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -800,7 +877,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
-    <MESSAGE value="Add to RandomPoetry.&#10;&#10;" />
     <MESSAGE value="Remove extraneous code.&#10;&#10;" />
     <MESSAGE value="Images and extra poetry files.&#10;&#10;" />
     <MESSAGE value="Typo" />
@@ -825,7 +901,8 @@
     <MESSAGE value="Refactored&#10;" />
     <MESSAGE value="Initial coding of warndsorff rule to solve the knight's tour. Works on 5, but fails on 8.&#10;" />
     <MESSAGE value="Debugging warnsdorff implementation&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Debugging warnsdorff implementation&#10;" />
+    <MESSAGE value="Experimenting with backtracking algorithm on 5 and 8 dim board&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Experimenting with backtracking algorithm on 5 and 8 dim board&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -856,20 +933,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CoverChessBoard/DevelopBoard.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CoverChessBoard/BoardSquares.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="56" column="80" selection-start-line="56" selection-start-column="80" selection-end-line="56" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CoverChessBoard/DevelopPiece.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1234,6 +1297,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1241,6 +1305,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1267,18 +1332,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CoverChessBoard/backtrack_design.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="105" column="32" selection-start-line="105" selection-start-column="32" selection-end-line="105" selection-end-column="32" />
-          <folding>
-            <element signature="e#173#1179#0" expanded="false" />
-            <element signature="e#1215#2093#0" expanded="false" />
-            <element signature="e#2129#2712#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CoverChessBoard/dorff.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1299,10 +1352,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CoverChessBoard/test_backtrack_design.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="649">
-          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+        <state relative-caret-position="-1">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CoverChessBoard/backtrack_design.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="98" column="32" selection-start-line="98" selection-start-column="32" selection-end-line="98" selection-end-column="32" />
+          <folding>
+            <element signature="e#173#1179#0" expanded="false" />
+            <element signature="e#1215#2093#0" expanded="false" />
+            <element signature="e#2129#2712#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CoverChessBoard/test_eight_board.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CoverChessBoard/ProcessPaths.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding>
+            <element signature="e#604#903#0" expanded="false" />
           </folding>
         </state>
       </provider>

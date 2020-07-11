@@ -61,16 +61,16 @@ c4 = ["44"]
 
 print("Backtracker suite")
 # Find a solution from square '11'
-solution_c1 = bd.backtracker(board, c1)
+#solution_c1 = bd.backtracker(board, c1)
 solution_c2 = bd.backtracker(board, c2)
-solution_c3 = bd.backtracker(board, c3)
-solution_c4 = bd.backtracker(board, c4)
+#solution_c3 = bd.backtracker(board, c3)
+#solution_c4 = bd.backtracker(board, c4)
 
-print("Solution for 11")
-print(solution_c1)
+#print("Solution for 11")
+#print(solution_c1)
 
-print("Solution for 13")
-print(solution_c2)
+#print("Solution for 13")
+#print(solution_c2)
 
-print("Solution for 55")
-print(solution_c3)
+#print("Solution for 55")
+#print(solution_c3)
