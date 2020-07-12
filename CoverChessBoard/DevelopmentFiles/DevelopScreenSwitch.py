@@ -5,12 +5,8 @@ Develop familiarity with how to switch screens
 """
 
 from kivy.app import App
-from CoverChessBoard.BoardSquares import *
-from CoverChessBoard.ChessPieces import *
 from functools import partial
-
 from kivy.uix.button import Button
-from kivy.uix.gridlayout import GridLayout
 
 from kivy.uix.screenmanager import ScreenManager, Screen
 
@@ -37,7 +33,6 @@ sm.add_widget(screen_one)
 sm.add_widget(screen_two)
 
 sm.current = "screen one"
-
 
 class TestApp(App):
 
