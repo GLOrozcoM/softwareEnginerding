@@ -1,32 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:se" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4c82b17f-c229-4ca1-8ca6-040ffe8332a3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CoverChessBoard/CheckSolutionsPieces.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CoverChessBoard/stack_backtrack.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CoverChessBoard/DevelopBinarySearch.py" afterPath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/DevelopBinarySearch.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CoverChessBoard/DevelopBoard.py" afterPath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/DevelopBoard.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CoverChessBoard/DevelopBoardAndPiece.py" afterPath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/DevelopBoardAndPiece.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CoverChessBoard/DevelopPiece.py" afterPath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/DevelopPiece.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CoverChessBoard/DevelopScreenSwitch.py" afterPath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/DevelopScreenSwitch.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CoverChessBoard/PathsOutput/back_out.txt" afterPath="$PROJECT_DIR$/CoverChessBoard/PathsOutput/knight_tour.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CoverChessBoard/QueenAlgorithm.py" afterPath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/ColumnBoardCover.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CoverChessBoard/SliderMove.py" afterPath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/DevelopSliderMove.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CoverChessBoard/TestSolutionPath.py" afterPath="$PROJECT_DIR$/CoverChessBoard/TestFiles/test_solution_paths.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CoverChessBoard/backtrack_design.py" afterPath="$PROJECT_DIR$/CoverChessBoard/Backtracker.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CoverChessBoard/dorff.py" afterPath="$PROJECT_DIR$/CoverChessBoard/Warnsdorff.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CoverChessBoard/test_backtrack_design.py" afterPath="$PROJECT_DIR$/CoverChessBoard/TestFiles/test_backtracker.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CoverChessBoard/test_dorff.py" afterPath="$PROJECT_DIR$/CoverChessBoard/TestFiles/test_warnsdorff.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CoverChessBoard/test_eight_board.py" afterPath="$PROJECT_DIR$/CoverChessBoard/GenerateSolutionPaths.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CoverChessBoard/CheckPathsComplete.py" afterPath="$PROJECT_DIR$/CoverChessBoard/CheckPathsComplete.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CoverChessBoard/FindPath.py" afterPath="$PROJECT_DIR$/CoverChessBoard/FindPath.py" />
+      <change afterPath="$PROJECT_DIR$/CoverChessBoard/TestFiles/test_piece_images.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SoftwareEnginerding.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SoftwareEnginerding.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoverChessBoard/ChessPieces.py" beforeDir="false" afterPath="$PROJECT_DIR$/CoverChessBoard/ChessPieces.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/DevelopScreenSwitch.py" beforeDir="false" afterPath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/DevelopScreenSwitch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoverChessBoard/PathsOutput/back_out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoverChessBoard/PathsOutput/knight_tour.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CoverChessBoard/SolutionPaths/knight_tour.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoverChessBoard/TestFiles/test_solution_paths.py" beforeDir="false" afterPath="$PROJECT_DIR$/CoverChessBoard/TestFiles/test_solution_paths.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoverChessBoard/images/bishop_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoverChessBoard/images/bishop_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoverChessBoard/images/complete_set.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoverChessBoard/images/complete_set_og.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoverChessBoard/images/king_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoverChessBoard/images/king_og_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoverChessBoard/images/king_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoverChessBoard/images/knight_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoverChessBoard/images/knight_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoverChessBoard/images/pawn_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoverChessBoard/images/pawn_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoverChessBoard/images/queen_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoverChessBoard/images/queen_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoverChessBoard/images/rook_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoverChessBoard/images/rook_up.png" beforeDir="false" />
     </list>
-    <ignored path="SoftwareEnginerding.iws" />
-    <ignored path=".idea/workspace.xml" />
-    <ignored path="CoverChessBoard/KivySamples.py" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,46 +52,6 @@
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
-  </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
-  <component name="FavoritesManager">
-    <favorites_list name="SoftwareEnginerding" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test_solution_paths.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CoverChessBoard/TestFiles/test_solution_paths.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="145" column="20" selection-start-line="145" selection-start-column="20" selection-end-line="145" selection-end-column="20" />
-              <folding>
-                <element signature="e#57#81#0" expanded="true" />
-                <element signature="e#346#402#0" expanded="false" />
-                <element signature="e#480#1199#0" expanded="false" />
-                <element signature="e#480#770#1" expanded="false" />
-                <element signature="e#1247#1639#0" expanded="false" />
-                <element signature="e#1247#1399#1" expanded="false" />
-                <element signature="e#1485#1531#0" expanded="false" />
-                <element signature="e#1558#1618#0" expanded="false" />
-                <element signature="e#1696#2480#0" expanded="false" />
-                <element signature="e#1696#1837#1" expanded="false" />
-                <element signature="e#2111#2480#0" expanded="false" />
-                <element signature="e#2541#3324#0" expanded="false" />
-                <element signature="e#2680#2736#0" expanded="false" />
-                <element signature="e#3064#3118#0" expanded="false" />
-                <element signature="e#3378#3716#0" expanded="false" />
-                <element signature="e#3378#3483#1" expanded="false" />
-                <element signature="e#3540#3716#0" expanded="false" />
-                <element signature="e#3792#4427#0" expanded="false" />
-                <element signature="e#3792#3978#1" expanded="false" />
-                <element signature="e#4463#4613#0" expanded="false" />
-                <element signature="e#4675#5119#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -85,154 +63,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/PoetryProjects/RandomPoetry/Briefcase.py" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/CoverChessBoard/Board.py" />
-        <option value="$PROJECT_DIR$/CoverChessBoard/ChessBoard.py" />
-        <option value="$PROJECT_DIR$/CoverChessBoard/DevelopBoardAndPiece.py" />
-        <option value="$PROJECT_DIR$/CoverChessBoard/DevelopPiece.py" />
-        <option value="$PROJECT_DIR$/CoverChessBoard/ChessObjects.py" />
-        <option value="$PROJECT_DIR$/CoverChessBoard/DevelopScreenSwitch.py" />
-        <option value="$PROJECT_DIR$/CoverChessBoard/KivySamples.py" />
-        <option value="$PROJECT_DIR$/CoverChessBoard/DevelopBoard.py" />
-        <option value="$PROJECT_DIR$/CoverChessBoard/QueenAlgorithm.py" />
-        <option value="$PROJECT_DIR$/CoverChessBoard/BoardSquares.py" />
-        <option value="$PROJECT_DIR$/CoverChessBoard/ChessPieces.py" />
-        <option value="$PROJECT_DIR$/CoverChessBoard/Graph.py" />
-        <option value="$PROJECT_DIR$/CoverChessBoard/warnsdorff_v1.py" />
-        <option value="$PROJECT_DIR$/CoverChessBoard/dorff.py" />
-        <option value="$PROJECT_DIR$/CoverChessBoard/test_reject.py" />
-        <option value="$PROJECT_DIR$/CoverChessBoard/test_dorff.py" />
-        <option value="$PROJECT_DIR$/CoverChessBoard/ProcessPaths.py" />
-        <option value="$PROJECT_DIR$/CoverChessBoard/SliderMove.py" />
-        <option value="$PROJECT_DIR$/CoverChessBoard/DevelopBinarySearch.py" />
-        <option value="$PROJECT_DIR$/CoverChessBoard/FindPath.py" />
-        <option value="$PROJECT_DIR$/CoverChessBoard/CheckPathsComplete.py" />
-        <option value="$PROJECT_DIR$/CoverChessBoard/CheckSolutionsPieces.py" />
-        <option value="$PROJECT_DIR$/CoverChessBoard/backtrack_design.py" />
-        <option value="$PROJECT_DIR$/CoverChessBoard/stack_backtrack.py" />
-        <option value="$PROJECT_DIR$/CoverChessBoard/Warnsdorff.py" />
-        <option value="$PROJECT_DIR$/CoverChessBoard/test_eight_board.py" />
-        <option value="$PROJECT_DIR$/CoverChessBoard/TestSolutionPath.py" />
-        <option value="$PROJECT_DIR$/CoverChessBoard/Backtracker.py" />
-        <option value="$PROJECT_DIR$/CoverChessBoard/test_backtrack_design.py" />
-        <option value="$PROJECT_DIR$/CoverChessBoard/TestFiles/test_dorff.py" />
-        <option value="$PROJECT_DIR$/CoverChessBoard/GenerateSolutionPaths.py" />
-        <option value="$PROJECT_DIR$/CoverChessBoard/TestFiles/test_solution_paths.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1432" />
-    <option name="height" value="797" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
-  </component>
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoftwareEnginerding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoftwareEnginerding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoftwareEnginerding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoftwareEnginerding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoftwareEnginerding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CoverChessBoard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoftwareEnginerding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoftwareEnginerding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CoverChessBoard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestFiles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoftwareEnginerding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoftwareEnginerding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CoverChessBoard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PathsOutput" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectId" id="1eZ4R8WbehvCQ4CY4P4AxdH7TZX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Data_Science_Projects/README.md" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CoverChessBoard" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.コンソール・フォント" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -244,130 +82,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/CoverChessBoard/TestFiles/images/SimpleSet" />
+      <recent name="$PROJECT_DIR$/CoverChessBoard/TestFiles/images" />
       <recent name="$PROJECT_DIR$/CoverChessBoard/TestFiles" />
       <recent name="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles" />
       <recent name="$PROJECT_DIR$/CoverChessBoard/images" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/CoverChessBoard" />
+      <recent name="$PROJECT_DIR$/CoverChessBoard/TestFiles" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.TestSolutionPath">
-    <configuration default="false" name="ProcessPaths" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CoverChessBoard" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="SoftwareEnginerding" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CoverChessBoard/CheckPathsComplete.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestSolutionPath" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CoverChessBoard" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="SoftwareEnginerding" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CoverChessBoard/TestFiles/test_solution_paths.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="CheckSolutionsPieces" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CoverChessBoard" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="SoftwareEnginerding" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CoverChessBoard/CheckSolutionsPieces.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="test_dorff" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CoverChessBoard/TestFiles" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="SoftwareEnginerding" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CoverChessBoard/TestFiles/test_warnsdorff.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="GenerateSolutionPaths" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <output_file path="$PROJECT_DIR$/CoverChessBoard/PathsOutput/knight_tour.txt" is_save="true" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CoverChessBoard" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="SoftwareEnginerding" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CoverChessBoard/GenerateSolutionPaths.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="SoftwareEnginerding" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="SoftwareEnginerding" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.DevelopScreenSwitch">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -387,94 +113,8 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
+    <configuration name="CheckSolutionsPieces" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SoftwareEnginerding" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Nosetests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="SoftwareEnginerding" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="SoftwareEnginerding" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="py.test">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="SoftwareEnginerding" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="testToRun" value="" />
-      <option name="keywords" value="" />
-      <option name="params" value="" />
-      <option name="USE_PARAM" value="false" />
-      <option name="USE_KEYWORD" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="test_reject" type="PythonConfigurationType" factoryName="Python">
-      <output_file path="$PROJECT_DIR$/CoverChessBoard/PathsOutput/back_out.txt" is_save="true" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -485,32 +125,142 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CoverChessBoard/CheckSolutionsPieces.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="DevelopScreenSwitch" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftwareEnginerding" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/DevelopScreenSwitch.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="GenerateSolutionPaths" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <output_file path="$PROJECT_DIR$/CoverChessBoard/PathsOutput/knight_tour.txt" is_save="true" />
+      <module name="SoftwareEnginerding" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CoverChessBoard" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CoverChessBoard/GenerateSolutionPaths.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestSolutionPath" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SoftwareEnginerding" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CoverChessBoard" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CoverChessBoard/TestFiles/test_solution_paths.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_piece_images" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SoftwareEnginerding" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CoverChessBoard/TestFiles" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CoverChessBoard/TestFiles/test_piece_images.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_reject" type="PythonConfigurationType" factoryName="Python">
+      <output_file path="$PROJECT_DIR$/CoverChessBoard/PathsOutput/back_out.txt" />
+      <module name="SoftwareEnginerding" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CoverChessBoard" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CoverChessBoard/TestFiles/test_backtracker.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <list size="6">
-      <item index="0" class="java.lang.String" itemvalue="Python.test_reject" />
-      <item index="1" class="java.lang.String" itemvalue="Python.ProcessPaths" />
-      <item index="2" class="java.lang.String" itemvalue="Python.TestSolutionPath" />
-      <item index="3" class="java.lang.String" itemvalue="Python.CheckSolutionsPieces" />
-      <item index="4" class="java.lang.String" itemvalue="Python.test_dorff" />
-      <item index="5" class="java.lang.String" itemvalue="Python.GenerateSolutionPaths" />
+    <list>
+      <item itemvalue="Python.test_reject" />
+      <item itemvalue="Python.CheckSolutionsPieces" />
+      <item itemvalue="Python.GenerateSolutionPaths" />
+      <item itemvalue="Python.TestSolutionPath" />
+      <item itemvalue="Python.test_piece_images" />
+      <item itemvalue="Python.DevelopScreenSwitch" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.TestSolutionPath" />
-        <item index="1" class="java.lang.String" itemvalue="Python.CheckSolutionsPieces" />
-        <item index="2" class="java.lang.String" itemvalue="Python.GenerateSolutionPaths" />
-        <item index="3" class="java.lang.String" itemvalue="Python.test_dorff" />
-        <item index="4" class="java.lang.String" itemvalue="Python.ProcessPaths" />
+      <list>
+        <item itemvalue="Python.DevelopScreenSwitch" />
+        <item itemvalue="Python.TestSolutionPath" />
+        <item itemvalue="Python.test_piece_images" />
+        <item itemvalue="Python.CheckSolutionsPieces" />
+        <item itemvalue="Python.GenerateSolutionPaths" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -772,109 +522,41 @@
       <option name="project" value="LOCAL" />
       <updated>1594506798852</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Refactored.">
+      <created>1594513426998</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1594513426998</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Image file upload.">
+      <created>1594513450250</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1594513450250</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Refactored">
+      <created>1594513691322</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1594513691322</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="Unittests_in_DevelopScreenSwitch - 2020.06.23 at 11h 20m 28s.xml">
-      <configuration name="Unittests in DevelopScreenSwitch" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_DevelopScreenSwitch - 2020.06.23 at 11h 21m 31s.xml">
-      <configuration name="Unittests in DevelopScreenSwitch" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_DevelopScreenSwitch - 2020.06.23 at 11h 22m 08s.xml">
-      <configuration name="Unittests in DevelopScreenSwitch" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_KivySamples - 2020.06.23 at 11h 34m 57s.xml">
-      <configuration name="Unittests in KivySamples" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_KivySamples - 2020.06.23 at 11h 35m 01s.xml">
-      <configuration name="Unittests in KivySamples" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_KivySamples - 2020.06.23 at 11h 35m 33s.xml">
-      <configuration name="Unittests in KivySamples" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_KivySamples - 2020.06.23 at 11h 38m 48s.xml">
-      <configuration name="Unittests in KivySamples" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_SoftwareEnginerding - 2020.06.30 at 11h 18m 39s.xml">
-      <configuration name="Unittests in SoftwareEnginerding" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_TestApp - 2020.06.23 at 11h 35m 03s.xml">
-      <configuration name="Unittests in TestApp" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_TestApp - 2020.06.23 at 11h 35m 05s.xml">
-      <configuration name="Unittests in TestApp" configurationId="tests" />
-    </history-entry>
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1432" height="797" extended-state="0" />
-    <editor active="false" />
-    <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20056698" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36595744" sideWeight="0.51098514" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3319149" sideWeight="0.4946846" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.4946846" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36595744" sideWeight="0.4890149" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24946846" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.4975195" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36595744" sideWeight="0.5081502" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3319149" sideWeight="0.4946846" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.4946846" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36595744" sideWeight="0.49184975" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20056698" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.4975195" order="3" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -884,14 +566,7 @@
       <collection />
     </option>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="VcsManagerConfiguration">
-    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
-    <MESSAGE value="Add gameplay and image. &#10;&#10;" />
-    <MESSAGE value="Introduced development of cover chess board project." />
-    <MESSAGE value="Directories&#10;&#10;" />
     <MESSAGE value="Make a board for the pieces&#10;" />
     <MESSAGE value="Created functions to make chess board. &#10;Working on making a board class.&#10;" />
     <MESSAGE value="Made board class. Board now callable as an object.&#10;" />
@@ -914,13 +589,59 @@
     <MESSAGE value="Confirmed 8 by 8 backtracking version contains solutions for every square." />
     <MESSAGE value="Output file for backtracking algorithm." />
     <MESSAGE value="Make a binary search implementation for finding the solution path." />
-    <option name="LAST_COMMIT_MESSAGE" value="Make a binary search implementation for finding the solution path." />
+    <MESSAGE value="Refactored." />
+    <MESSAGE value="Image file upload." />
+    <MESSAGE value="Refactored" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="507" y="183" key="FileChooserDialogImpl" timestamp="1594516011105">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="507" y="183" key="FileChooserDialogImpl/0.23.1440.797@0.23.1440.797" timestamp="1594516011105" />
+    <state width="1417" height="229" key="GridCell.Tab.0.bottom" timestamp="1594586423387">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1417" height="229" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1594586423387" />
+    <state width="1417" height="229" key="GridCell.Tab.0.center" timestamp="1594586423386">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1417" height="229" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1594586423386" />
+    <state width="1417" height="229" key="GridCell.Tab.0.left" timestamp="1594586423385">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1417" height="229" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1594586423385" />
+    <state width="1417" height="229" key="GridCell.Tab.0.right" timestamp="1594586423386">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1417" height="229" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1594586423386" />
+    <state width="1417" height="253" key="GridCell.Tab.1.bottom" timestamp="1594586088199">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1417" height="253" key="GridCell.Tab.1.bottom/0.23.1440.797@0.23.1440.797" timestamp="1594586088199" />
+    <state width="1417" height="253" key="GridCell.Tab.1.center" timestamp="1594586088198">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1417" height="253" key="GridCell.Tab.1.center/0.23.1440.797@0.23.1440.797" timestamp="1594586088198" />
+    <state width="1417" height="253" key="GridCell.Tab.1.left" timestamp="1594586088198">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1417" height="253" key="GridCell.Tab.1.left/0.23.1440.797@0.23.1440.797" timestamp="1594586088198" />
+    <state width="1417" height="253" key="GridCell.Tab.1.right" timestamp="1594586088199">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1417" height="253" key="GridCell.Tab.1.right/0.23.1440.797@0.23.1440.797" timestamp="1594586088199" />
+    <state x="229" y="60" key="SettingsEditor" timestamp="1594523189417">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="229" y="60" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1594523189417" />
+    <state x="386" y="144" width="670" height="676" key="search.everywhere.popup" timestamp="1594584611706">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="386" y="144" width="670" height="676" key="search.everywhere.popup/0.23.1440.797@0.23.1440.797" timestamp="1594584611706" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints-dialog>
-        <breakpoints-dialog />
-      </breakpoints-dialog>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -928,7 +649,6 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="46" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -937,578 +657,5 @@
         <watch expression="converted_path" language="Python" />
       </configuration>
     </watches-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PoetryProjects/RandomPoetry/Briefcase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="80" selection-start-line="25" selection-start-column="80" selection-end-line="25" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Data_Science_Projects/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="75">
-            <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1470">
-            <caret line="98" column="7" selection-start-line="98" selection-start-column="7" selection-end-line="98" selection-end-column="7" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PoetryProjects/RandomPoetry/Briefcase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Data_Science_Projects/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="75">
-            <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1470">
-            <caret line="98" column="7" selection-start-line="98" selection-start-column="7" selection-end-line="98" selection-end-column="7" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PoetryProjects/RandomPoetry/Briefcase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Data_Science_Projects/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="75">
-            <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="105">
-            <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Data_Science_Projects/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="75">
-            <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Data_Science_Projects/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="75">
-            <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PoetryProjects/Ecopoetics/A house of nodes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PoetryProjects/Ecopoetics/Somnium.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PoetryProjects/RandomPoetry/InvestigateFull_Text.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15515">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PoetryProjects/RandomPoetry/InvestigateBlessed.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-290">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PoetryProjects/RandomPoetry/InvestigateEndgame.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PoetryProjects/RandomPoetry/InvestigateFlowersForEli.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-170">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PoetryProjects/RandomPoetry/InvestigateForgiveness.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PoetryProjects/RandomPoetry/InvestigateInvestigateEndgame.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-473">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PoetryProjects/RandomPoetry/Experiments/InvestigateEndgame.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1058">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PoetryProjects/RandomPoetry/InvestigateInvestigateFlowersForEli.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PoetryProjects/RandomPoetry/InvestigateGoodEvening.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PoetryProjects/RandomPoetry/Briefcase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="25" column="80" selection-start-line="25" selection-start-column="80" selection-end-line="25" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="15">
-            <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/DevelopPiece.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/DevelopBoardAndPiece.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/DevelopScreenSwitch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/DevelopBoard.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="75" column="49" selection-start-line="75" selection-start-column="49" selection-end-line="75" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="963" column="0" selection-start-line="963" selection-start-column="0" selection-end-line="963" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="308" column="0" selection-start-line="308" selection-start-column="0" selection-end-line="308" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/networkx/classes/graph.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="1237" column="0" selection-start-line="1237" selection-start-column="0" selection-end-line="1237" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/DevelopBinarySearch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-          <folding>
-            <element signature="e#118#417#0" expanded="false" />
-            <element signature="e#445#649#0" expanded="false" />
-            <element signature="e#683#1243#0" expanded="false" />
-            <element signature="e#1280#2054#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CoverChessBoard/CheckPathsComplete.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="113" column="55" selection-start-line="113" selection-start-column="55" selection-end-line="113" selection-end-column="55" />
-          <folding>
-            <element signature="e#976#1451#0" expanded="false" />
-            <element signature="e#1493#1813#0" expanded="false" />
-            <element signature="e#1843#2147#0" expanded="false" />
-            <element signature="e#2190#3174#0" expanded="false" />
-            <element signature="e#3210#3746#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CoverChessBoard/stack_backtrack.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CoverChessBoard/FindPath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
-          <folding>
-            <element signature="e#189#664#0" expanded="false" />
-            <element signature="e#706#1026#0" expanded="false" />
-            <element signature="e#1069#2053#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/ColumnBoardCover.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CoverChessBoard/ChessPieces.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#173#1" expanded="false" />
-            <element signature="e#255#1806#0" expanded="false" />
-            <element signature="e#348#558#0" expanded="false" />
-            <element signature="e#607#662#0" expanded="false" />
-            <element signature="e#751#1321#0" expanded="false" />
-            <element signature="e#751#930#1" expanded="false" />
-            <element signature="e#1039#1321#0" expanded="false" />
-            <element signature="e#1094#1321#0" expanded="false" />
-            <element signature="e#1417#1806#0" expanded="false" />
-            <element signature="e#1417#1587#1" expanded="false" />
-            <element signature="e#1637#1806#0" expanded="false" />
-            <element signature="e#1692#1806#0" expanded="false" />
-            <element signature="e#1834#2863#0" expanded="false" />
-            <element signature="e#1862#2049#0" expanded="false" />
-            <element signature="e#2098#2863#0" expanded="false" />
-            <element signature="e#2414#2818#0" expanded="false" />
-            <element signature="e#2465#2818#0" expanded="false" />
-            <element signature="e#2532#2632#0" expanded="false" />
-            <element signature="e#2718#2818#0" expanded="false" />
-            <element signature="e#2891#3505#0" expanded="false" />
-            <element signature="e#2919#3069#0" expanded="false" />
-            <element signature="e#3118#3505#0" expanded="false" />
-            <element signature="e#3530#5605#0" expanded="false" />
-            <element signature="e#3558#3834#0" expanded="false" />
-            <element signature="e#3879#3985#0" expanded="false" />
-            <element signature="e#4031#4141#0" expanded="false" />
-            <element signature="e#4199#4514#0" expanded="false" />
-            <element signature="e#4261#4484#0" expanded="false" />
-            <element signature="e#4294#4373#0" expanded="false" />
-            <element signature="e#4408#4484#0" expanded="false" />
-            <element signature="e#4563#5605#0" expanded="false" />
-            <element signature="e#4891#5560#0" expanded="false" />
-            <element signature="e#4940#5560#0" expanded="false" />
-            <element signature="e#5026#5162#0" expanded="false" />
-            <element signature="e#5237#5354#0" expanded="false" />
-            <element signature="e#5441#5560#0" expanded="false" />
-            <element signature="e#5631#7143#0" expanded="false" />
-            <element signature="e#5659#5934#0" expanded="false" />
-            <element signature="e#5979#6085#0" expanded="false" />
-            <element signature="e#6131#6241#0" expanded="false" />
-            <element signature="e#6299#6614#0" expanded="false" />
-            <element signature="e#6361#6584#0" expanded="false" />
-            <element signature="e#6394#6473#0" expanded="false" />
-            <element signature="e#6508#6584#0" expanded="false" />
-            <element signature="e#6663#7143#0" expanded="false" />
-            <element signature="e#7168#8010#0" expanded="false" />
-            <element signature="e#7196#7342#0" expanded="false" />
-            <element signature="e#7391#8010#0" expanded="false" />
-            <element signature="e#7822#7964#0" expanded="false" />
-            <element signature="e#7871#7964#0" expanded="false" />
-            <element signature="e#8035#9498#0" expanded="false" />
-            <element signature="e#8063#8336#0" expanded="false" />
-            <element signature="e#8381#8487#0" expanded="false" />
-            <element signature="e#8533#8643#0" expanded="false" />
-            <element signature="e#8701#9016#0" expanded="false" />
-            <element signature="e#8763#8986#0" expanded="false" />
-            <element signature="e#8796#8875#0" expanded="false" />
-            <element signature="e#8910#8986#0" expanded="false" />
-            <element signature="e#9065#9498#0" expanded="false" />
-            <element signature="e#9065#9149#1" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/KivySamples.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="125" column="17" selection-start-line="125" selection-start-column="17" selection-end-line="125" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/DevelopSliderMove.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="165" column="20" selection-start-line="165" selection-start-column="20" selection-end-line="165" selection-end-column="20" />
-          <folding>
-            <element signature="e#431#455#0" expanded="true" />
-            <element signature="e#702#758#0" expanded="false" />
-            <element signature="e#1603#1995#0" expanded="false" />
-            <element signature="e#2052#2836#0" expanded="false" />
-            <element signature="e#2897#3680#0" expanded="false" />
-            <element signature="e#3734#4072#0" expanded="false" />
-            <element signature="e#4148#4783#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CoverChessBoard/Warnsdorff.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="58" selection-start-line="1" selection-start-column="58" selection-end-line="1" selection-end-column="58" />
-          <folding>
-            <element signature="e#178#990#0" expanded="false" />
-            <element signature="e#1018#1354#0" expanded="false" />
-            <element signature="e#1389#1661#0" expanded="false" />
-            <element signature="e#1712#2210#0" expanded="false" />
-            <element signature="e#2255#2830#0" expanded="false" />
-            <element signature="e#2888#3893#0" expanded="false" />
-            <element signature="e#3956#5367#0" expanded="false" />
-            <element signature="e#5405#5879#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CoverChessBoard/BoardSquares.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="101" column="0" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
-          <folding>
-            <element signature="e#106#452#0" expanded="false" />
-            <element signature="e#145#452#0" expanded="false" />
-            <element signature="e#481#2937#0" expanded="false" />
-            <element signature="e#481#520#1" expanded="false" />
-            <element signature="e#590#984#0" expanded="false" />
-            <element signature="e#590#694#1" expanded="false" />
-            <element signature="e#1043#1635#0" expanded="false" />
-            <element signature="e#1043#1194#1" expanded="false" />
-            <element signature="e#1685#1711#0" expanded="false" />
-            <element signature="e#1777#2437#0" expanded="false" />
-            <element signature="e#1777#1913#1" expanded="false" />
-            <element signature="e#1992#2417#0" expanded="false" />
-            <element signature="e#2030#2417#0" expanded="false" />
-            <element signature="e#2097#2236#0" expanded="false" />
-            <element signature="e#2279#2417#0" expanded="false" />
-            <element signature="e#2480#2937#0" expanded="false" />
-            <element signature="e#2480#2642#1" expanded="false" />
-            <element signature="e#2700#2856#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CoverChessBoard/Backtracker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="88" column="34" selection-start-line="88" selection-start-column="34" selection-end-line="88" selection-end-column="34" />
-          <folding>
-            <element signature="e#173#1179#0" expanded="false" />
-            <element signature="e#1215#2093#0" expanded="false" />
-            <element signature="e#2129#2712#0" expanded="false" />
-            <element signature="e#2775#3210#0" expanded="false" />
-            <element signature="e#3251#4496#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CoverChessBoard/TestFiles/test_backtracker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="74" column="19" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CoverChessBoard/TestFiles/test_warnsdorff.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CoverChessBoard/PathsOutput/back_out.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CoverChessBoard/GenerateSolutionPaths.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-          <folding>
-            <element signature="e#101#142#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CoverChessBoard/PathsOutput/knight_tour.txt">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CoverChessBoard/CheckSolutionsPieces.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CoverChessBoard/TestFiles/test_solution_paths.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="145" column="20" selection-start-line="145" selection-start-column="20" selection-end-line="145" selection-end-column="20" />
-          <folding>
-            <element signature="e#57#81#0" expanded="true" />
-            <element signature="e#346#402#0" expanded="false" />
-            <element signature="e#480#1199#0" expanded="false" />
-            <element signature="e#480#770#1" expanded="false" />
-            <element signature="e#1247#1639#0" expanded="false" />
-            <element signature="e#1247#1399#1" expanded="false" />
-            <element signature="e#1485#1531#0" expanded="false" />
-            <element signature="e#1558#1618#0" expanded="false" />
-            <element signature="e#1696#2480#0" expanded="false" />
-            <element signature="e#1696#1837#1" expanded="false" />
-            <element signature="e#2111#2480#0" expanded="false" />
-            <element signature="e#2541#3324#0" expanded="false" />
-            <element signature="e#2680#2736#0" expanded="false" />
-            <element signature="e#3064#3118#0" expanded="false" />
-            <element signature="e#3378#3716#0" expanded="false" />
-            <element signature="e#3378#3483#1" expanded="false" />
-            <element signature="e#3540#3716#0" expanded="false" />
-            <element signature="e#3792#4427#0" expanded="false" />
-            <element signature="e#3792#3978#1" expanded="false" />
-            <element signature="e#4463#4613#0" expanded="false" />
-            <element signature="e#4675#5119#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>

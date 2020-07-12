@@ -57,8 +57,8 @@ class Knight(Piece):
     def __init__(self):
         # White, or no tint on piece
         super().__init__(color = [1, 1, 1, 1])
-        self.background_normal = "images/knight_up.png"
-        self.background_down = "images/knight_down.png"
+        self.background_normal = "images/SimpleSet/knight_up.png"
+        self.background_down = "images/SimpleSet/knight_down.png"
 
     def make_move_list(self, squares):
         assert self.square is not None, "The piece isn't on a square yet"
@@ -104,8 +104,8 @@ class Bishop(Piece):
 class King(Piece):
     def __init__(self):
         super().__init__(color = [1, 1, 1, 1])
-        self.background_normal = "images/king_og_up.png"
-        self.background_down = "images/king_down.png"
+        self.background_normal = "images/SimpleSet/king_up.png"
+        self.background_down = "images/SimpleSet/king_down.png"
 
         # Assuming a start at 11 in matrix
         self.column_algorithmic_solution = self.make_column_algorithmic_solution()
@@ -162,8 +162,8 @@ class King(Piece):
 class Queen(Piece):
     def __init__(self):
         super().__init__(color = [1, 1, 1, 1])
-        self.background_normal = "images/queen_up.png"
-        self.background_down = "images/queen_down.png"
+        self.background_normal = "images/SimpleSet/queen_up.png"
+        self.background_down = "images/SimpleSet/queen_down.png"
 
         # Assuming a start at 11 in matrix
         self.column_algorithmic_solution = self.make_column_algorithmic_solution()
@@ -234,8 +234,8 @@ class Pawn(Piece):
 class Rook(Piece):
     def __init__(self):
         super().__init__(color = [1, 1, 1, 1])
-        self.background_normal = "images/rook_up.png"
-        self.background_down = "images/rook_down.png"
+        self.background_normal = "images/SimpleSet/rook_up.png"
+        self.background_down = "images/SimpleSet/rook_down.png"
 
         # Assuming a start at 11 in matrix
         self.column_algorithmic_solution = self.make_column_algorithmic_solution()
