@@ -21,7 +21,7 @@ def read_solutions():
     :return: paths_str
     """
     # Read in solutions and split based on new lines
-    paths = open("PathsOutput/knight_tour.txt", "r")
+    paths = open("SolutionPaths/knight_tour.txt", "r")
     paths_str = paths.read().splitlines()
     return paths_str
 

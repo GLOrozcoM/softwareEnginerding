@@ -8,6 +8,6 @@ square on the chess board.
 from CoverChessBoard.CheckPathsComplete import *
 
 print("Knight's tour check")
-knight_tour = "PathsOutput/knight_tour.txt"
+knight_tour = "SolutionPaths/knight_tour.txt"
 perform_check(knight_tour)
 print("Knight's tour check ended")
