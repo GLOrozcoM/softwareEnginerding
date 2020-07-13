@@ -7,6 +7,7 @@ from kivy.app import App
 from CoverChessBoard.DevelopmentFiles.MenuScreen import *
 from CoverChessBoard.DevelopmentFiles.WelcomeScreen import *
 from CoverChessBoard.DevelopmentFiles.ChooseSquareScreen import *
+from CoverChessBoard.DevelopmentFiles.EmptyBoard import *
 from kivy.uix.screenmanager import ScreenManager, Screen
 
 class ConquerChessBoard(App):
@@ -17,18 +18,23 @@ class ConquerChessBoard(App):
         welcome_layout = create_welcome_layout(sm)
         menu_layout = create_menu_layout(sm)
         choose_square_layout = create_choose_square_layout(sm)
+        empty_board_layout = create_empty_board_layout()
 
         welcome_screen = Screen(name="welcome_screen")
         menu_screen = Screen(name="menu_screen")
         choose_square_screen = Screen(name="choose_square_screen")
+        empty_board_screen = Screen(name="empty_board_screen")
 
         welcome_screen.add_widget(welcome_layout)
         menu_screen.add_widget(menu_layout)
         choose_square_screen.add_widget(choose_square_layout)
+        empty_board_screen.add_widget(empty_board_layout)
 
         sm.add_widget(welcome_screen)
         sm.add_widget(menu_screen)
         sm.add_widget(choose_square_screen)
+        sm.add_widget(empty_board_screen)
+
         return sm
 
 

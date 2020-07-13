@@ -12,7 +12,7 @@ from functools import partial
 
 
 def create_instruction():
-    title_lbl = Label(text="In the next screen, press on a square to place a piece.",
+    title_lbl = Label(text="Press on a square in the next screen to place a piece.",
                       pos=(0, 210),
                       font_size='25sp',
                       color=(1, 1, 1, 0.7))
@@ -20,7 +20,7 @@ def create_instruction():
 
 def navigate_board(screen_manager, *args):
     # TODO change to board screen
-    screen_manager.current = "menu_screen"
+    screen_manager.current = "empty_board_screen"
 
 def create_continue_button(screen_manager):
     continue_btn = Button(text="Take me to the board.",

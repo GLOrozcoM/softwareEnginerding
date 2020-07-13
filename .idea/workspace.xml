@@ -19,31 +19,33 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c82b17f-c229-4ca1-8ca6-040ffe8332a3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/CoverChessBoard/TestFiles/test_piece_images.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/SoftwareEnginerding.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SoftwareEnginerding.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="4c82b17f-c229-4ca1-8ca6-040ffe8332a3" name="Default" comment="Join welcome, main menu, and choose square screens.">
+      <change afterPath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/EmptyBoard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/images/GlassSet/bishop_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/images/GlassSet/bishop_up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/images/GlassSet/complete_set.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/images/GlassSet/king_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/images/GlassSet/king_up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/images/GlassSet/knight_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/images/GlassSet/knight_up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/images/GlassSet/pawn_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/images/GlassSet/pawn_up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/images/GlassSet/queen_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/images/GlassSet/queen_up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/images/GlassSet/rook_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/images/GlassSet/rook_up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/images/SimpleSet/complete_set_og.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/images/SimpleSet/king_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/images/SimpleSet/king_up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/images/SimpleSet/knight_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/images/SimpleSet/knight_up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/images/SimpleSet/queen_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/images/SimpleSet/queen_up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/images/SimpleSet/rook_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/images/SimpleSet/rook_up.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoverChessBoard/ChessPieces.py" beforeDir="false" afterPath="$PROJECT_DIR$/CoverChessBoard/ChessPieces.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/DevelopScreenSwitch.py" beforeDir="false" afterPath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/DevelopScreenSwitch.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoverChessBoard/PathsOutput/back_out.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoverChessBoard/PathsOutput/knight_tour.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CoverChessBoard/SolutionPaths/knight_tour.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoverChessBoard/TestFiles/test_solution_paths.py" beforeDir="false" afterPath="$PROJECT_DIR$/CoverChessBoard/TestFiles/test_solution_paths.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoverChessBoard/images/bishop_down.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoverChessBoard/images/bishop_up.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoverChessBoard/images/complete_set.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoverChessBoard/images/complete_set_og.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoverChessBoard/images/king_down.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoverChessBoard/images/king_og_up.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoverChessBoard/images/king_up.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoverChessBoard/images/knight_down.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoverChessBoard/images/knight_up.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoverChessBoard/images/pawn_down.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoverChessBoard/images/pawn_up.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoverChessBoard/images/queen_down.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoverChessBoard/images/queen_up.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoverChessBoard/images/rook_down.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoverChessBoard/images/rook_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/ChooseSquareScreen.py" beforeDir="false" afterPath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/ChooseSquareScreen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/Main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +71,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/CoverChessBoard" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.コンソール・フォント" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -81,6 +83,11 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles" />
+      <recent name="$PROJECT_DIR$/CoverChessBoard" />
+      <recent name="$PROJECT_DIR$/CoverChessBoard/TestFiles" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/CoverChessBoard/TestFiles/images/SimpleSet" />
       <recent name="$PROJECT_DIR$/CoverChessBoard/TestFiles/images" />
@@ -88,12 +95,8 @@
       <recent name="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles" />
       <recent name="$PROJECT_DIR$/CoverChessBoard/images" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/CoverChessBoard" />
-      <recent name="$PROJECT_DIR$/CoverChessBoard/TestFiles" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python.DevelopScreenSwitch">
+  <component name="RunManager" selected="Python.Main">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -112,27 +115,6 @@
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <method />
-    </configuration>
-    <configuration name="CheckSolutionsPieces" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="SoftwareEnginerding" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CoverChessBoard" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CoverChessBoard/CheckSolutionsPieces.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <configuration name="DevelopScreenSwitch" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftwareEnginerding" />
@@ -155,8 +137,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="GenerateSolutionPaths" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <output_file path="$PROJECT_DIR$/CoverChessBoard/PathsOutput/knight_tour.txt" is_save="true" />
+    <configuration name="EmptyBoard" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftwareEnginerding" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -164,11 +145,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CoverChessBoard" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CoverChessBoard/GenerateSolutionPaths.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/EmptyBoard.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -177,7 +158,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="TestSolutionPath" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftwareEnginerding" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -185,11 +166,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CoverChessBoard" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CoverChessBoard/TestFiles/test_solution_paths.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/Main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -198,7 +179,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_piece_images" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="MenuScreen" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftwareEnginerding" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -206,11 +187,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CoverChessBoard/TestFiles" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CoverChessBoard/TestFiles/test_piece_images.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/MenuScreen.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="WelcomeScreen" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SoftwareEnginerding" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/WelcomeScreen.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -243,19 +245,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.test_reject" />
-      <item itemvalue="Python.CheckSolutionsPieces" />
-      <item itemvalue="Python.GenerateSolutionPaths" />
-      <item itemvalue="Python.TestSolutionPath" />
-      <item itemvalue="Python.test_piece_images" />
       <item itemvalue="Python.DevelopScreenSwitch" />
+      <item itemvalue="Python.WelcomeScreen" />
+      <item itemvalue="Python.MenuScreen" />
+      <item itemvalue="Python.Main" />
+      <item itemvalue="Python.EmptyBoard" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Main" />
+        <item itemvalue="Python.EmptyBoard" />
+        <item itemvalue="Python.MenuScreen" />
+        <item itemvalue="Python.WelcomeScreen" />
         <item itemvalue="Python.DevelopScreenSwitch" />
-        <item itemvalue="Python.TestSolutionPath" />
-        <item itemvalue="Python.test_piece_images" />
-        <item itemvalue="Python.CheckSolutionsPieces" />
-        <item itemvalue="Python.GenerateSolutionPaths" />
       </list>
     </recent_temporary>
   </component>
@@ -543,7 +545,42 @@
       <option name="project" value="LOCAL" />
       <updated>1594513691322</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Refactored">
+      <created>1594586504428</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1594586504428</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Implemented minimal concept to switch between screens.">
+      <created>1594586551449</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1594586551449</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Remove excess lines.">
+      <created>1594586614114</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1594586614114</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Develop welcome and menu screen.&#10;Join them via button binding.">
+      <created>1594605230574</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1594605230574</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Join welcome, main menu, and choose square screens.">
+      <created>1594610417045</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1594610417045</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -567,10 +604,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Make a board for the pieces&#10;" />
-    <MESSAGE value="Created functions to make chess board. &#10;Working on making a board class.&#10;" />
-    <MESSAGE value="Made board class. Board now callable as an object.&#10;" />
-    <MESSAGE value="Made toggling for piece object. &#10;" />
     <MESSAGE value="Experimenting with children widgets.&#10;" />
     <MESSAGE value="Simplified board with grid layout. &#10;Made a determine square function.&#10;" />
     <MESSAGE value="Place a piece ona board through matrix notation&#10;" />
@@ -592,53 +625,57 @@
     <MESSAGE value="Refactored." />
     <MESSAGE value="Image file upload." />
     <MESSAGE value="Refactored" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactored" />
+    <MESSAGE value="Implemented minimal concept to switch between screens." />
+    <MESSAGE value="Remove excess lines." />
+    <MESSAGE value="Develop welcome and menu screen.&#10;Join them via button binding." />
+    <MESSAGE value="Join welcome, main menu, and choose square screens." />
+    <option name="LAST_COMMIT_MESSAGE" value="Join welcome, main menu, and choose square screens." />
   </component>
   <component name="WindowStateProjectService">
     <state x="507" y="183" key="FileChooserDialogImpl" timestamp="1594516011105">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="507" y="183" key="FileChooserDialogImpl/0.23.1440.797@0.23.1440.797" timestamp="1594516011105" />
-    <state width="1417" height="229" key="GridCell.Tab.0.bottom" timestamp="1594586423387">
+    <state width="1417" height="229" key="GridCell.Tab.0.bottom" timestamp="1594621447297">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1417" height="229" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1594586423387" />
-    <state width="1417" height="229" key="GridCell.Tab.0.center" timestamp="1594586423386">
+    <state width="1417" height="229" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1594621447297" />
+    <state width="1417" height="229" key="GridCell.Tab.0.center" timestamp="1594621447295">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1417" height="229" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1594586423386" />
-    <state width="1417" height="229" key="GridCell.Tab.0.left" timestamp="1594586423385">
+    <state width="1417" height="229" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1594621447295" />
+    <state width="1417" height="229" key="GridCell.Tab.0.left" timestamp="1594621447295">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1417" height="229" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1594586423385" />
-    <state width="1417" height="229" key="GridCell.Tab.0.right" timestamp="1594586423386">
+    <state width="1417" height="229" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1594621447295" />
+    <state width="1417" height="229" key="GridCell.Tab.0.right" timestamp="1594621447296">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1417" height="229" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1594586423386" />
-    <state width="1417" height="253" key="GridCell.Tab.1.bottom" timestamp="1594586088199">
+    <state width="1417" height="229" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1594621447296" />
+    <state width="1417" height="253" key="GridCell.Tab.1.bottom" timestamp="1594620471735">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1417" height="253" key="GridCell.Tab.1.bottom/0.23.1440.797@0.23.1440.797" timestamp="1594586088199" />
-    <state width="1417" height="253" key="GridCell.Tab.1.center" timestamp="1594586088198">
+    <state width="1417" height="253" key="GridCell.Tab.1.bottom/0.23.1440.797@0.23.1440.797" timestamp="1594620471735" />
+    <state width="1417" height="253" key="GridCell.Tab.1.center" timestamp="1594620471733">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1417" height="253" key="GridCell.Tab.1.center/0.23.1440.797@0.23.1440.797" timestamp="1594586088198" />
-    <state width="1417" height="253" key="GridCell.Tab.1.left" timestamp="1594586088198">
+    <state width="1417" height="253" key="GridCell.Tab.1.center/0.23.1440.797@0.23.1440.797" timestamp="1594620471733" />
+    <state width="1417" height="253" key="GridCell.Tab.1.left" timestamp="1594620471732">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1417" height="253" key="GridCell.Tab.1.left/0.23.1440.797@0.23.1440.797" timestamp="1594586088198" />
-    <state width="1417" height="253" key="GridCell.Tab.1.right" timestamp="1594586088199">
+    <state width="1417" height="253" key="GridCell.Tab.1.left/0.23.1440.797@0.23.1440.797" timestamp="1594620471732" />
+    <state width="1417" height="253" key="GridCell.Tab.1.right" timestamp="1594620471734">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1417" height="253" key="GridCell.Tab.1.right/0.23.1440.797@0.23.1440.797" timestamp="1594586088199" />
+    <state width="1417" height="253" key="GridCell.Tab.1.right/0.23.1440.797@0.23.1440.797" timestamp="1594620471734" />
     <state x="229" y="60" key="SettingsEditor" timestamp="1594523189417">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="229" y="60" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1594523189417" />
-    <state x="386" y="144" width="670" height="676" key="search.everywhere.popup" timestamp="1594584611706">
+    <state x="386" y="144" width="670" height="676" key="search.everywhere.popup" timestamp="1594618759284">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state x="386" y="144" width="670" height="676" key="search.everywhere.popup/0.23.1440.797@0.23.1440.797" timestamp="1594584611706" />
+    <state x="386" y="144" width="670" height="676" key="search.everywhere.popup/0.23.1440.797@0.23.1440.797" timestamp="1594618759284" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
