@@ -4,14 +4,17 @@ Menu screen to navigate app.
 
 """
 
-from kivy.app import App
 from kivy.uix.button import Button
 from kivy.uix.label import Label
 from kivy.uix.relativelayout import RelativeLayout
 from kivy.uix.colorpicker import Color
 from kivy.graphics import Rectangle
+from functools import partial
 
-def create_computer_button():
+def navigate_choose_square(screen_manager, *args):
+    screen_manager.current = "choose_square_screen"
+
+def create_computer_button(screen_manager):
     computer_btn = Button(text="Have the computer conquer for you",
                           pos=(325, 110),
                           size_hint=(0.2, 0.2),
@@ -19,9 +22,10 @@ def create_computer_button():
                           background_down='',
                           background_color=(0, 0, 0.14, 1),
                           color=(1, 1, 1, 0.7))
+    computer_btn.bind(on_release = partial(navigate_choose_square, screen_manager))
     return computer_btn
 
-def create_conquer_button():
+def create_conquer_button(screen_manager):
     conquer_btn = Button(text="Try to conquer the board yourself",
                          pos=(325, 210),
                          size_hint=(0.2, 0.2),
@@ -29,6 +33,7 @@ def create_conquer_button():
                          background_down='',
                          background_color=(0, 0, 0.14, 1),
                          color=(1, 1, 1, 0.7))
+    conquer_btn.bind(on_release=partial(navigate_choose_square, screen_manager))
     return conquer_btn
 
 def create_concept_button():
@@ -57,13 +62,13 @@ def generate_layout():
                          pos=layout.pos)
     return layout
 
-def create_menu_layout():
+def create_menu_layout(screen_manager):
     layout = generate_layout()
 
     title_lbl = create_title()
     concept_btn = create_concept_button()
-    conquer_btn = create_conquer_button()
-    computer_btn = create_computer_button()
+    conquer_btn = create_conquer_button(screen_manager)
+    computer_btn = create_computer_button(screen_manager)
 
     layout.add_widget(title_lbl)
     layout.add_widget(concept_btn)
