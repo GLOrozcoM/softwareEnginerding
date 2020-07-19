@@ -151,7 +151,7 @@ class BoardAndPiece(App):
         board = board.place_piece_on_board(1, 8, piece)
         self.bind_squares_in_board(board)
 
-        move_list = get_path(start, "SolutionPaths/knight_tour.txt")
+        move_list = get_path(start, "../SolutionPaths/knight_tour.txt")
 
         seconds = 3
         for move in move_list:
