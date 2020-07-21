@@ -97,7 +97,7 @@ class BoardAndPiece(App):
     def build(self):
         white = [1, 1, 1, 1]
         mild_green = [0, 0.6, 0.29, 1]
-        board = SquaresLayout(white, mild_green)
+        board = Board(white, mild_green)
 
         p = Queen()
         board = board.place_piece_on_board(1, 1, p)

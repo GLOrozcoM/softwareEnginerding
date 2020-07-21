@@ -13,7 +13,7 @@ from functools import partial
 def navigate_menu(screen_manager, *args):
     screen_manager.current = "menu_screen"
 
-def create_continue_button(screen_manager):
+def continue_button(screen_manager):
     continue_btn = Button(text="Press here to start",
                           pos=(325, 250),
                           size_hint=(0.2, 0.2),
@@ -65,7 +65,7 @@ def create_welcome_layout(screen_manager):
 
     layout = generate_layout()
 
-    continue_btn = create_continue_button(screen_manager)
+    continue_btn = continue_button(screen_manager)
     author = create_author()
     title = create_title()
     subtitle = create_subtitle()

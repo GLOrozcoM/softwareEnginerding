@@ -20,7 +20,8 @@ def create_instruction():
 
 def navigate_board(screen_manager, *args):
     # TODO change to board screen
-    screen_manager.current = "empty_board_screen"
+    print(screen_manager.previous())
+    screen_manager.current = "player_board_screen"
 
 def create_continue_button(screen_manager):
     continue_btn = Button(text="Take me to the board.",

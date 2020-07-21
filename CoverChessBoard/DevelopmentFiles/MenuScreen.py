@@ -11,8 +11,11 @@ from kivy.uix.colorpicker import Color
 from kivy.graphics import Rectangle
 from functools import partial
 
-def navigate_choose_square(screen_manager, *args):
-    screen_manager.current = "choose_square_screen"
+def navigate_player_board(screen_manager, *args):
+    screen_manager.current = "player_board_screen"
+
+def navigate_computer_board(screen_manager, *args):
+    screen_manager.current = "computer_board_screen"
 
 def create_computer_button(screen_manager):
     computer_btn = Button(text="Have the computer conquer for you",
@@ -22,7 +25,7 @@ def create_computer_button(screen_manager):
                           background_down='',
                           background_color=(0, 0, 0.14, 1),
                           color=(1, 1, 1, 0.7))
-    computer_btn.bind(on_release = partial(navigate_choose_square, screen_manager))
+    computer_btn.bind(on_release = partial(navigate_computer_board, screen_manager))
     return computer_btn
 
 def create_conquer_button(screen_manager):
@@ -33,7 +36,7 @@ def create_conquer_button(screen_manager):
                          background_down='',
                          background_color=(0, 0, 0.14, 1),
                          color=(1, 1, 1, 0.7))
-    conquer_btn.bind(on_release=partial(navigate_choose_square, screen_manager))
+    conquer_btn.bind(on_release=partial(navigate_player_board, screen_manager))
     return conquer_btn
 
 def create_concept_button():
@@ -44,6 +47,7 @@ def create_concept_button():
                          background_down='',
                          background_color=(0, 0, 0.14, 1),
                          color=(1, 1, 1, 0.7))
+    ## TODO Create a conceptual screen for what the process is all about
     return concept_btn
 
 def create_title():

@@ -139,7 +139,7 @@ class BoardAndPiece(App):
         white = [1, 1, 1, 1]
         mild_green = [0, 0.6, 0.29, 1]
         dim = 8
-        board = SquaresLayout(white, mild_green, dim)
+        board = Board(white, mild_green, dim)
         return board
 
 ## Place to test solution path

@@ -9,14 +9,14 @@ from kivy.app import App
 from kivy.uix.button import Button
 from kivy.uix.togglebutton import ToggleButton
 from kivy.uix.boxlayout import BoxLayout
-from CoverChessBoard.BoardSquares import SquaresLayout
+from CoverChessBoard.BoardSquares import Board
 
 class Board(App):
 
     def build(self):
         white = [1, 1, 1, 1]
         mild_green = [0, 0.6, 0.29, 1]
-        chess_board = SquaresLayout(white, mild_green)
+        chess_board = Board(white, mild_green)
 
         # REmove one button_to_add from [0,0] in matrix
         # --> Children one columns, children two buttons
