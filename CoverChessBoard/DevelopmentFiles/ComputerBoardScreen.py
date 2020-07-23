@@ -25,7 +25,7 @@ class BoardScreen(Screen):
         # A chess board object, not just the squares
         self. board = None
 
-def set_up_computer_board_screen():
+def setup_computer_board_screen():
     # Over arching screen
     layout = BoxLayout(orientation='vertical')
 
@@ -66,7 +66,6 @@ def start_solution_callback(instance, *largs):
     # -- go from current button, to grid layout, to screen, to board object in screen.
     board = instance.parent.parent.parent.board
 
-    # Find the piece's position in the sibling layout for a button
     start_position = ''
     for obj in board.squares.children:
         if isinstance(obj, Piece):

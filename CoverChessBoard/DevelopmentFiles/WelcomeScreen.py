@@ -9,6 +9,7 @@ from kivy.uix.relativelayout import RelativeLayout
 from kivy.uix.colorpicker import Color
 from kivy.graphics import Rectangle
 from functools import partial
+from kivy.uix.screenmanager import Screen
 
 def navigate_menu(screen_manager, *args):
     screen_manager.current = "menu_screen"
@@ -78,3 +79,9 @@ def create_welcome_layout(screen_manager):
     layout.add_widget(version)
 
     return layout
+
+def setup_welcome_screen(sm):
+    welcome_layout = create_welcome_layout(sm)
+    welcome_screen = Screen(name="welcome_screen")
+    welcome_screen.add_widget(welcome_layout)
+    return welcome_screen

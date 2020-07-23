@@ -5,6 +5,7 @@ Create an empty board. When the user presses a square, place a knight on that sq
 """
 from CoverChessBoard.BoardSquares import *
 from kivy.uix.boxlayout import BoxLayout
+from kivy.uix.screenmanager import Screen
 
 def make_board():
     white = [1, 1, 1, 1]
@@ -27,4 +28,10 @@ def create_player_board_layout():
     board = setup_board()
 
     return board.squares
+
+def setup_player_screen():
+    player_board_layout = create_player_board_layout()
+    player_screen = Screen(name="player_board_screen")
+    player_screen.add_widget(player_board_layout)
+    return player_screen
 

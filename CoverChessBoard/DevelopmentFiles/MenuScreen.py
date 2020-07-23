@@ -10,6 +10,7 @@ from kivy.uix.relativelayout import RelativeLayout
 from kivy.uix.colorpicker import Color
 from kivy.graphics import Rectangle
 from functools import partial
+from kivy.uix.screenmanager import Screen
 
 def navigate_player_board(screen_manager, *args):
     screen_manager.current = "player_board_screen"
@@ -80,3 +81,12 @@ def create_menu_layout(screen_manager):
     layout.add_widget(computer_btn)
     return layout
 
+def setup_menuscreen(sm):
+    """ Make a menu screen for the application.
+
+    :return:
+    """
+    menu_layout = create_menu_layout(sm)
+    menu_screen = Screen(name="menu_screen")
+    menu_screen.add_widget(menu_layout)
+    return menu_screen
