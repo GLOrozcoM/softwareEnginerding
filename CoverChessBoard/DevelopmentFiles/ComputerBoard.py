@@ -4,6 +4,8 @@ Create an empty board. When the user presses a square, place a knight on that sq
 
 """
 
+import os
+
 from kivy.app import App
 from CoverChessBoard.BoardSquares import *
 from CoverChessBoard.ChessPieces import *
@@ -14,6 +16,32 @@ from kivy.uix.anchorlayout import AnchorLayout
 from kivy.clock import Clock
 from functools import partial
 from kivy.uix.screenmanager import ScreenManager, Screen
+
+class BoardScreen(Screen):
+
+    def __init__(self, name):
+        super().__init__(name = name)
+
+        # A chess board object, not just the squares
+        self. board = None
+
+def set_up_computer_board_screen():
+    # Over arching screen
+    layout = BoxLayout(orientation='vertical')
+
+    # Board
+    screen = BoardScreen(name = "computer_board_screen")
+    screen.board = setup_board()
+
+    # Notice squares get added not the board itself
+    layout.add_widget(screen.board.squares)
+
+    # Button
+    btn_layout = create_start_button()
+    layout.add_widget(btn_layout)
+
+    screen.add_widget(layout)
+    return screen
 
 def make_board():
     white = [1, 1, 1, 1]
@@ -35,26 +63,24 @@ def start_solution_callback(instance, *largs):
     :return:
     """
     # Acces the layout holding both the button and the board squares
-    top_layout = instance.parent.parent
+    # -- go from current button, to grid layout, to screen, to board object in screen.
+    board = instance.parent.parent.parent.board
 
     # Find the piece's position in the sibling layout for a button
     start_position = ''
-    piece = None
-    board = None
-    for layout in top_layout.children:
-        if isinstance(layout, GridLayout):
-            board_squares = layout
-            for obj in layout.children:
-                if isinstance(obj, Piece):
-                    piece = obj
-                    start_position = piece.square.position
-
-    move_list = get_path(start_position, "../SolutionPaths/knight_tour.txt")
-    seconds = 3
-    for move in move_list:
-        # TODO implement class/method that assures this method is linked to board object
-        Clock.schedule_once(partial(move_piece_to_str_ij, move, board_squares, piece), seconds)
-        seconds += 0.1
+    for obj in board.squares.children:
+        if isinstance(obj, Piece):
+            start_position = obj.square.position
+    if board.piece:
+        move_list = get_path(start_position, "../SolutionPaths/knight_tour.txt")
+        seconds = 3
+        count = 0
+        for move in move_list:
+            Clock.schedule_once(partial(board.move_piece_to_str_ij, move, board.piece, count), seconds)
+            count += 1
+            seconds += 0.1
+    else:
+        print("Place the piece on the board before you try to solve anything!")
 
 def create_start_button():
     btn_layout = AnchorLayout()

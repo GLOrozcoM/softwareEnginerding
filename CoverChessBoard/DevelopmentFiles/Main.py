@@ -17,26 +17,19 @@ class ConquerChessBoard(App):
 
         welcome_layout = create_welcome_layout(sm)
         menu_layout = create_menu_layout(sm)
-        computer_board_layout = create_computer_board_layout()
         player_board_layout = create_player_board_layout()
 
         welcome_screen = Screen(name="welcome_screen")
         menu_screen = Screen(name="menu_screen")
-
-        # Custom screen object that will also hold a board
-        computer_board_screen = Screen(name="computer_board_screen")
-
-
         player_board_screen = Screen(name="player_board_screen")
 
         welcome_screen.add_widget(welcome_layout)
         menu_screen.add_widget(menu_layout)
-        computer_board_screen.add_widget(computer_board_layout)
         player_board_screen.add_widget(player_board_layout)
 
         sm.add_widget(welcome_screen)
         sm.add_widget(menu_screen)
-        sm.add_widget(computer_board_screen)
+        sm.add_widget(set_up_computer_board_screen())
         sm.add_widget(player_board_screen)
 
         return sm
