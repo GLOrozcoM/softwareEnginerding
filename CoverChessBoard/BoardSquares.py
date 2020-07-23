@@ -70,7 +70,7 @@ class Board():
         destination_square = self.find_square(i, j)
         children = self.squares.children
         index_to_move = children.index(destination_square)
-        self.place_piece_at_index(destination_square, piece, index_to_move, self.squares)
+        self.place_piece_at_index(destination_square, piece, index_to_move)
 
     #######################################################
 

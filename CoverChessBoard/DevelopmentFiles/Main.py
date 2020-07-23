@@ -17,8 +17,8 @@ class ConquerChessBoard(App):
 
         sm.add_widget(setup_welcome_screen(sm))
         sm.add_widget(setup_menuscreen(sm))
-        sm.add_widget(setup_computer_board_screen())
-        sm.add_widget(setup_player_screen())
+        sm.add_widget(setup_computer_board_screen(sm))
+        sm.add_widget(setup_player_screen(sm))
 
         return sm
 

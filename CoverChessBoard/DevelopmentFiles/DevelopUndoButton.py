@@ -26,10 +26,13 @@ def create_player_board_layout():
 
     board = setup_board()
 
-    undo_btn = Button(text="Undo")
-    undo_btn.size_hint = (0.2, 1)
+    undo_btn = Button(text="Undo",
+                      size_hint=(0.2,1),
+                      background_normal='',
+                      background_down='',
+                      background_color=(0,0,0.14,1),
+                      color=(1, 1, 1, 0.7))
     undo_btn.bind(on_release=board.undo_callback)
-
 
     layout.add_widget(board.squares)
     layout.add_widget(undo_btn)

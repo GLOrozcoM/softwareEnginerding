@@ -16,6 +16,8 @@ from kivy.uix.anchorlayout import AnchorLayout
 from kivy.clock import Clock
 from functools import partial
 from kivy.uix.screenmanager import ScreenManager, Screen
+from kivy.uix.colorpicker import Color
+from kivy.graphics import Rectangle
 
 class BoardScreen(Screen):
 
@@ -25,9 +27,14 @@ class BoardScreen(Screen):
         # A chess board object, not just the squares
         self. board = None
 
-def setup_computer_board_screen():
+def setup_computer_board_screen(screen_manager):
     # Over arching screen
     layout = BoxLayout(orientation='vertical')
+    # Give background image to layout
+    with layout.canvas.before:
+        Color(0, 0, 0.14, 1)
+        rect = Rectangle(size=(1000, 1000),
+                         pos=layout.pos)
 
     # Board
     screen = BoardScreen(name = "computer_board_screen")
@@ -36,10 +43,15 @@ def setup_computer_board_screen():
     # Notice squares get added not the board itself
     layout.add_widget(screen.board.squares)
 
-    # Button
-    btn_layout = create_start_button()
-    layout.add_widget(btn_layout)
+    # Buttons
+    btn_layout = BoxLayout(orientation='horizontal')
+    start_btn = create_start_button()
+    back_btn = create_back_button(screen_manager)
+    btn_layout.add_widget(back_btn)
+    btn_layout.add_widget(start_btn)
+    btn_layout.size_hint = (1, 0.2)
 
+    layout.add_widget(btn_layout)
     screen.add_widget(layout)
     return screen
 
@@ -54,6 +66,18 @@ def setup_board():
     board = make_board()
     board.bind_squares_in_board()
     return board
+
+def back_btn_callback(*args, screen_manager):
+    screen_manager.current = "menu_screen"
+
+def create_back_button(screen_manager):
+    back_btn = Button(text="Go back",
+                      background_normal='',
+                      background_down='',
+                      background_color=(0, 0, 0.14, 1),
+                      color=(1, 1, 1, 0.7))
+    back_btn.bind(on_release=partial(back_btn_callback, screen_manager=screen_manager))
+    return back_btn
 
 def start_solution_callback(instance, *largs):
     """ Start the process for seeing the board populated by the piece.
@@ -80,7 +104,6 @@ def start_solution_callback(instance, *largs):
         print("Place the piece on the board before you try to solve anything!")
 
 def create_start_button():
-    btn_layout = AnchorLayout()
     start_btn = Button(text="Start solution",
                        pos=(100, 100),
                        background_normal='',
@@ -88,20 +111,4 @@ def create_start_button():
                        background_color=(0, 0, 0.14, 1),
                        color=(1, 1, 1, 0.7))
     start_btn.bind(on_release=start_solution_callback)
-    btn_layout.add_widget(start_btn)
-    btn_layout.size_hint = (1, 0.2)
-    return btn_layout
-
-def create_computer_board_layout():
-
-    layout = BoxLayout(orientation='vertical')
-
-    board = setup_board()
-    btn_layout = create_start_button()
-
-    # Notice squares get added not the board itself
-    layout.add_widget(board.squares)
-    layout.add_widget(btn_layout)
-
-    return layout
-
+    return start_btn
