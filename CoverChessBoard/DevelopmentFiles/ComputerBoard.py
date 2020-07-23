@@ -74,10 +74,8 @@ def start_solution_callback(instance, *largs):
     if board.piece:
         move_list = get_path(start_position, "../SolutionPaths/knight_tour.txt")
         seconds = 3
-        count = 0
         for move in move_list:
-            Clock.schedule_once(partial(board.move_piece_to_str_ij, move, board.piece, count), seconds)
-            count += 1
+            Clock.schedule_once(partial(board.move_piece_to_str_ij, move, board.piece), seconds)
             seconds += 0.1
     else:
         print("Place the piece on the board before you try to solve anything!")

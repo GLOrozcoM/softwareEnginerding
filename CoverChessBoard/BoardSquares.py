@@ -40,6 +40,8 @@ class Board():
         # Assuming only a single piece will ever a be on the squares
         self.piece = None
 
+        # How many movements the player has gone through
+        self.move_count = 0
 
     ### ij position methods ###############################
 
@@ -48,7 +50,7 @@ class Board():
         j = int(ij[1])
         return i,j
 
-    def move_piece_to_str_ij(self, str_ij, piece, count,*largs):
+    def move_piece_to_str_ij(self, str_ij, piece,*largs):
         """ Have the program move the piece to an ij position on the board.
 
         :param str_ij:
@@ -58,7 +60,7 @@ class Board():
         :return:
         """
         # Replace the square where the piece originates
-        self.replace_piece_square(self.squares, piece, count)
+        self.replace_piece_square(self.squares, piece)
 
         # Move the piece to ij position on board
         i, j = self.str_ij_to_int(str_ij)
@@ -223,7 +225,7 @@ class Board():
 
         return children
 
-    def replace_piece_square(self, board, piece, count = 0):
+    def replace_piece_square(self, board, piece):
 
         # Where the piece was on the board
         occupied_square_index = board.children.index(piece)
@@ -232,7 +234,8 @@ class Board():
         # Get the appropriate light or dark color for the square
         # and create a new square
         color = self.color_square(piece.square.position)
-        occupied_square = Square(piece.square.position, color, str(count))
+        occupied_square = Square(piece.square.position, color, str(self.move_count))
+        self.move_count += 1
 
         # Give tint to indicate a piece has already been on this square
         dark_blue = [0, 0.30, 1, 0.9]
