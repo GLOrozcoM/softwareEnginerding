@@ -43,6 +43,9 @@ class Board():
         # How many movements the player has gone through
         self.move_count = 0
 
+        # Track what movements are made in case the player wants to undo
+        self.move_stack = []
+
     ### ij position methods ###############################
 
     def str_ij_to_int(self, ij):
@@ -127,9 +130,9 @@ class Board():
         for obj in self.squares.children:
             # Only bind the square objects, not the Piece object
             if not isinstance(obj, Piece):
-                obj.bind(on_release = partial(self.square_pressed, self.piece))
+                obj.bind(on_release = partial(self.square_pressed))
 
-    def square_pressed(self, piece, instance):
+    def square_pressed(self, instance):
         """ First event expected from user. Place the piece on the square that got pressed.
 
         :param piece:
@@ -142,9 +145,10 @@ class Board():
             current_square_index = self.squares.children.index(instance)
 
             # Remove the destination square, place piece there
+            # -- NOTE THIS HARDCODES KNIGHT
             piece = Knight()
             self.piece = piece
-            self.place_piece_at_index(instance, self.piece, current_square_index, self.squares)
+            self.place_piece_at_index(instance, self.piece, current_square_index)
         else:
             self.square_pressed_piece_on_board(self.piece, instance)
 
@@ -170,8 +174,26 @@ class Board():
             # Remove the piece, place a new square there
             self.replace_piece_square(board, piece)
             # Remove the destination square, place piece there
-            self.place_piece_at_index(instance, piece, current_square_index, board)
+            self.place_piece_at_index(instance, piece, current_square_index)
 
+    def undo_callback(self, *args):
+        if self.piece:
+            # Can't undo unless moves were made
+            if self.move_stack:
+                # Replace where the piece was
+                self.replace_piece_square_undo(self.piece)
+
+                # Get the square we need to move back to
+                prev_move = self.move_stack.pop()
+                prev_square = prev_move[0]
+                prev_square_index = prev_move[1]
+
+                # Move the piece to the destination square
+                # Remove the destination square, place piece there
+                self.place_piece_at_index(prev_square, self.piece, prev_square_index)
+
+        else:
+            print("Oh ho ho my friend. You forgot to place the piece on the board.")
     #######################################################
 
     #### Piece placement and square search methods ########
@@ -201,7 +223,7 @@ class Board():
 
         return self
 
-    def place_piece_at_index(self, square, piece, index, children):
+    def place_piece_at_index(self, square, piece, index):
         """ Take a piece and place it on the square in a board. Index is the position of the
         square in the children list for the board.
 
@@ -212,22 +234,43 @@ class Board():
         :return:
         """
         # Remove the square occupying the space on board
-        children.remove_widget(square)
+        self.squares.remove_widget(square)
 
         # Makes sure piece is associated with the new square
         piece.square = square
 
         # Place the piece at the destination square
-        children.add_widget(piece, index)
+        self.squares.add_widget(piece, index)
 
         # Recalculate the possible moves for the piece based on the new position
-        piece.make_move_list(children)
+        piece.make_move_list(self.squares)
 
-        return children
+        return self.squares
+
+    # Got the movement away from the square
+    # -- need to figure out how to get the square we're moving to
+    def replace_piece_square_undo(self, piece):
+        board = self.squares
+
+        # Where the piece was on the board
+        occupied_square_index = board.children.index(piece)
+        board.remove_widget(piece)
+
+        # Get the appropriate light or dark color for the square
+        # and create a new square
+        self.move_count -= 1
+        color = self.color_square(piece.square.position)
+        occupied_square = Square(piece.square.position, color)
+
+        # Let the piece move back to this square
+        occupied_square.bind(on_release=self.square_pressed)
+
+        board.add_widget(occupied_square, occupied_square_index)
 
     def replace_piece_square(self, board, piece):
 
         # Where the piece was on the board
+        piece_square = piece.square
         occupied_square_index = board.children.index(piece)
         board.remove_widget(piece)
 
@@ -244,6 +287,9 @@ class Board():
         # Uncomment to allow moving back to a square the piece
         # has stepped on
         # occupied_square.bind(on_release = self.square_pressed)
+
+        # In case the user wants to undo
+        self.move_stack.append([occupied_square, occupied_square_index])
 
         # Place a tinted square back on the board
         board.add_widget(occupied_square, occupied_square_index)
