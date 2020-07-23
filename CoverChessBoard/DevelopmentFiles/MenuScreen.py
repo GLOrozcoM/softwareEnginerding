@@ -40,7 +40,11 @@ def create_conquer_button(screen_manager):
     conquer_btn.bind(on_release=partial(navigate_player_board, screen_manager))
     return conquer_btn
 
-def create_concept_button():
+def navigate_concept(screen_manager, *args):
+    print("Pressed button")
+    screen_manager.current = "explanation_screen"
+
+def create_concept_button(screen_manager):
     concept_btn = Button(text="Get the process explained",
                          pos=(325, 310),
                          size_hint=(0.2, 0.2),
@@ -48,7 +52,7 @@ def create_concept_button():
                          background_down='',
                          background_color=(0, 0, 0.14, 1),
                          color=(1, 1, 1, 0.7))
-    ## TODO Create a conceptual screen for what the process is all about
+    concept_btn.bind(on_release=partial(navigate_concept, screen_manager))
     return concept_btn
 
 def create_title():
@@ -71,7 +75,7 @@ def create_menu_layout(screen_manager):
     layout = generate_layout()
 
     title_lbl = create_title()
-    concept_btn = create_concept_button()
+    concept_btn = create_concept_button(screen_manager)
     conquer_btn = create_conquer_button(screen_manager)
     computer_btn = create_computer_button(screen_manager)
 
