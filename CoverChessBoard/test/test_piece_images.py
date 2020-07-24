@@ -3,7 +3,7 @@ Experimenting with images for pieces, simpler encapsulated board construction.
 """
 
 from kivy.app import App
-from CoverChessBoard.BoardSquares import *
+from CoverChessBoard.src.BoardSquares import *
 from CoverChessBoard.src.ChessPieces import *
 
 

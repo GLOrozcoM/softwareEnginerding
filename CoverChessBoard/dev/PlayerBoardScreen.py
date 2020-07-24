@@ -3,12 +3,11 @@
 Create an empty board. When the user presses a square, place a knight on that square.
 
 """
-from CoverChessBoard.BoardSquares import *
+from CoverChessBoard.src.BoardSquares import *
 from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.screenmanager import Screen
 from functools import partial
 from kivy.uix.button import Button
-from kivy.uix.label import Label
 from kivy.uix.relativelayout import RelativeLayout
 from kivy.uix.colorpicker import Color
 from kivy.graphics import Rectangle

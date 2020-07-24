@@ -6,7 +6,7 @@ Testing getting a solution path for a knight.
 
 from kivy.app import App
 from kivy.clock import Clock
-from CoverChessBoard.BoardSquares import *
+from CoverChessBoard.src.BoardSquares import *
 from CoverChessBoard.src.ChessPieces import *
 from functools import partial
 from CoverChessBoard.src.FindSolutionPath import *
@@ -151,7 +151,7 @@ class BoardAndPiece(App):
         board = board.place_piece_on_board(1, 8, piece)
         self.bind_squares_in_board(board)
 
-        move_list = get_path(start, "../SolutionPaths/knight_tour.txt")
+        move_list = get_path(start, "../solution_paths/knight_tour.txt")
 
         seconds = 3
         for move in move_list:

@@ -1,7 +1,5 @@
-from kivy.uix.button import Button
-from CoverChessBoard.BoardSquares import *
+from CoverChessBoard.src.BoardSquares import *
 from kivy.uix.boxlayout import BoxLayout
-from kivy.uix.screenmanager import Screen
 from kivy.app import App
 
 def make_board():

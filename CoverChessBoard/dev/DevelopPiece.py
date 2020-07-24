@@ -11,10 +11,7 @@ been clicked.
 """
 
 from kivy.app import App
-from kivy.uix.button import Button
 from kivy.uix.togglebutton import ToggleButton
-from kivy.uix.boxlayout import BoxLayout
-from CoverChessBoard.BoardSquares import Board
 
 """
 Right at press: on_press

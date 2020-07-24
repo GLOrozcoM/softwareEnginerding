@@ -7,9 +7,7 @@ Render the piece on the board.
 
 from kivy.app import App
 from kivy.uix.button import Button
-from kivy.uix.togglebutton import ToggleButton
-from kivy.uix.boxlayout import BoxLayout
-from CoverChessBoard.BoardSquares import Board
+from CoverChessBoard.src.BoardSquares import Board
 
 class Board(App):
 

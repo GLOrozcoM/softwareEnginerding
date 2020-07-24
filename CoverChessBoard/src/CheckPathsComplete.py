@@ -59,6 +59,6 @@ def perform_check(file_name):
 
 if __name__ == "__main__":
     print("Knight's tour check")
-    knight_tour = "../SolutionPaths/knight_tour.txt"
+    knight_tour = "../solution_paths/knight_tour.txt"
     perform_check(knight_tour)
     print("Knight's tour check ended")

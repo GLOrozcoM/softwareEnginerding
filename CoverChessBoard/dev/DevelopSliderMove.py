@@ -15,7 +15,7 @@ Use event or trigger? Do you think?
 
 from kivy.app import App
 from kivy.clock import Clock
-from CoverChessBoard.BoardSquares import *
+from CoverChessBoard.src.BoardSquares import *
 from CoverChessBoard.src.ChessPieces import *
 from functools import partial
 #from Graph import *

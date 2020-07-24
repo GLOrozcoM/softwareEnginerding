@@ -4,7 +4,7 @@ Create an empty board. When the user presses a square, place a knight on that sq
 
 """
 
-from CoverChessBoard.BoardSquares import *
+from CoverChessBoard.src.BoardSquares import *
 from CoverChessBoard.src.ChessPieces import *
 from CoverChessBoard.src.CheckPathsComplete import *
 from kivy.uix.boxlayout import BoxLayout
@@ -91,7 +91,7 @@ def start_solution_callback(instance, *largs):
         if isinstance(obj, Piece):
             start_position = obj.square.position
     if board.piece:
-        move_list = get_path(start_position, "../SolutionPaths/knight_tour.txt")
+        move_list = get_path(start_position, "../solution_paths/knight_tour.txt")
         seconds = 3
         for move in move_list:
             Clock.schedule_once(partial(board.move_piece_to_str_ij, move, board.piece), seconds)
