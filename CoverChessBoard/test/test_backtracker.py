@@ -1,5 +1,5 @@
-from CoverChessBoard.src.Backtracker import *
-from CoverChessBoard.src.MakeMovementGraph import *
+from CoverChessBoard.src.backend.Backtracker import *
+from CoverChessBoard.src.backend.MakeMovementGraph import *
 
 matrix = make_n_matrix(8)
 board = matrix_to_graph(matrix)

@@ -8,8 +8,8 @@ Note that this can take up to 16 minutes to run.
 The file produced will be 59.6 MB.
 """
 
-from CoverChessBoard.src.Backtracker import *
-from CoverChessBoard.src.MakeMovementGraph import *
+from CoverChessBoard.src.backend.Backtracker import *
+from CoverChessBoard.src.backend.MakeMovementGraph import *
 import time
 
 

@@ -1,4 +1,4 @@
-from CoverChessBoard.src.MakeMovementGraph import *
+from CoverChessBoard.src.backend.MakeMovementGraph import *
 
 ##### Testing ######
 

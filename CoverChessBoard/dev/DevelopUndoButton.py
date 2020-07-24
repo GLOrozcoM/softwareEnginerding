@@ -1,4 +1,4 @@
-from CoverChessBoard.src.BoardSquares import *
+from CoverChessBoard.src.backend.BoardSquares import *
 from kivy.uix.boxlayout import BoxLayout
 from kivy.app import App
 

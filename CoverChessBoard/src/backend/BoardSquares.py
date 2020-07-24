@@ -5,7 +5,7 @@ This module was built to contain the board used to display the piece tour.
 from kivy.uix.button import Button
 from kivy.uix.gridlayout import GridLayout
 from functools import partial
-from CoverChessBoard.src.ChessPieces import *
+from CoverChessBoard.src.backend.ChessPieces import *
 
 
 class Square(Button):

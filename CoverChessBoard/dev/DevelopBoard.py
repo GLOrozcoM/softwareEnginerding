@@ -14,8 +14,8 @@ If entry reads a 0 display original, 1 shows position of piece.
 """
 
 from kivy.app import App
-from CoverChessBoard.src.BoardSquares import *
-from CoverChessBoard.src.ChessPieces import *
+from CoverChessBoard.src.backend.BoardSquares import *
+from CoverChessBoard.src.backend.ChessPieces import *
 
 class BoardAndPiece(App):
 

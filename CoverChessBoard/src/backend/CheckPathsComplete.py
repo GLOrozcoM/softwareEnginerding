@@ -20,7 +20,7 @@ Log N solution
 -> If a path isn't found, break and output for which coordinate a path didn't exist.
 -> If the loop ends without breaking, a path existed for each square.
 """
-from CoverChessBoard.src.FindSolutionPath import *
+from CoverChessBoard.src.backend.FindSolutionPath import *
 
 
 def generate_squares():

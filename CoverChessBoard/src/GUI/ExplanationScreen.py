@@ -1,33 +1,20 @@
 """
 This module encapsulates the explanation screen for the user.
--- what is the whole process about?
+-- what is the whole program about?
 """
-from kivy.app import App
 from kivy.uix.label import Label
-from kivy.uix.relativelayout import RelativeLayout
 from kivy.uix.colorpicker import Color
 from kivy.graphics import Rectangle
 from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.screenmanager import Screen
-from CoverChessBoard.dev.FooterButtons import *
+from CoverChessBoard.src.GUI.NavigationButtons import *
 
-def create_explanation_layout(screen_manager):
-    layout = BoxLayout(orientation='vertical')
-    # Give background image to layout
-    with layout.canvas.before:
-        Color(0, 0, 0.14, 1)
-        rect = Rectangle(size=(1000, 1000),
-                         pos=layout.pos)
 
-    par_one = create_paragraph_one()
-    back_btn = create_back_button(screen_manager)
-    back_btn.size_hint=(1, 0.2)
+def create_paragraph():
+    """ Make a label containing text for the explanation screen.
 
-    layout.add_widget(par_one)
-    layout.add_widget(back_btn)
-    return layout
-
-def create_paragraph_one():
+    :return: A label containing explanation text.
+    """
     paragraph = Label(
         text="""This program intends to replicate the problem of covering every chess square on a chess board \n
              while only visiting each square once. \n\n
@@ -43,10 +30,37 @@ def create_paragraph_one():
         halign='justify')
     return paragraph
 
-def setup_explanation_screen(screen_manager):
 
-    explanation_screen = Screen(name = "explanation_screen")
+def create_explanation_layout(screen_manager):
+    """ Create the layout to contain the text.
+
+    :param screen_manager: The manager for screens in the application.
+    :return: A BoxLayout containing the text for the explanation screen.
+    """
+    layout = BoxLayout(orientation='vertical')
+    # Give background image to layout
+    with layout.canvas.before:
+        Color(0, 0, 0.14, 1)
+        rect = Rectangle(size=(1000, 1000),
+                         pos=layout.pos)
+
+    paragraph = create_paragraph()
+    back_btn = create_back_button(screen_manager)
+    # Make the button take up entire width, but only 20% of height
+    back_btn.size_hint = (1, 0.2)
+
+    layout.add_widget(paragraph)
+    layout.add_widget(back_btn)
+    return layout
+
+
+def setup_explanation_screen(screen_manager):
+    """ Make a screen containing an explanation for the program.
+
+    :param screen_manager: The manager for screens in the application.
+    :return: A screen containing an explanation for the program.
+    """
+    explanation_screen = Screen(name="explanation_screen")
     layout = create_explanation_layout(screen_manager)
     explanation_screen.add_widget(layout)
-
     return explanation_screen
