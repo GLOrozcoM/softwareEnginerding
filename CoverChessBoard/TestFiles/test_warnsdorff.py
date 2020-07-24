@@ -1,4 +1,4 @@
-from CoverChessBoard.Warnsdorff import *
+from CoverChessBoard.src.MakeMovementGraph import *
 
 ##### Testing ######
 

@@ -7,10 +7,10 @@ Testing getting a solution path for a knight.
 from kivy.app import App
 from kivy.clock import Clock
 from CoverChessBoard.BoardSquares import *
-from CoverChessBoard.ChessPieces import *
+from CoverChessBoard.src.ChessPieces import *
 from functools import partial
-from CoverChessBoard.FindPath import *
-import time
+from CoverChessBoard.src.FindSolutionPath import *
+
 
 class BoardAndPiece(App):
 

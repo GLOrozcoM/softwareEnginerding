@@ -4,8 +4,7 @@ Experimenting with images for pieces, simpler encapsulated board construction.
 
 from kivy.app import App
 from CoverChessBoard.BoardSquares import *
-from CoverChessBoard.ChessPieces import *
-from functools import partial
+from CoverChessBoard.src.ChessPieces import *
 
 
 class BoardAndPiece(App):

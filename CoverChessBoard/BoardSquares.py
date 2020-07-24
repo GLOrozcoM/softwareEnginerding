@@ -1,7 +1,7 @@
 from kivy.uix.button import Button
 from kivy.uix.gridlayout import GridLayout
 from functools import partial
-from CoverChessBoard.ChessPieces import *
+from CoverChessBoard.src.ChessPieces import *
 
 class Square(Button):
 

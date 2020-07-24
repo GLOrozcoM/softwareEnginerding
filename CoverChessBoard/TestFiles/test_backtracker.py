@@ -1,5 +1,5 @@
-from CoverChessBoard.Backtracker import *
-from CoverChessBoard.Warnsdorff import *
+from CoverChessBoard.src.Backtracker import *
+from CoverChessBoard.src.MakeMovementGraph import *
 
 matrix = make_n_matrix(8)
 board = matrix_to_graph(matrix)
@@ -48,7 +48,7 @@ print(accept(board, c4))
 #####
 last_move = "32"
 print("get_children_candidate() suite")
-print(get_children_candidate(c1, board, last_move))
+print(get_warnsdorff_moves(c1, board, last_move))
 
 #####
 
