@@ -4,6 +4,7 @@ This module was built to contain the screen where a user can see a computer gene
 from CoverChessBoard.src.backend.BoardSquares import *
 from CoverChessBoard.src.backend.ChessPieces import *
 from CoverChessBoard.src.GUI.NavigationButtons import *
+from CoverChessBoard.src.backend.FindSolutionPath import *
 from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.button import Button
 from kivy.clock import Clock
@@ -87,7 +88,7 @@ def start_solution_callback(instance, *largs):
             start_position = obj.square.position
     # Only if a piece is present is a solution found for it
     if board.piece:
-        move_list = get_path(start_position, "../../solution_paths/knight_tour.txt")
+        move_list = get_path(start_position, "../solution_paths/knight_tour.txt")
         seconds = 0.5
         for move in move_list:
             Clock.schedule_once(partial(board.move_piece_to_str_ij, move, board.piece), seconds)
