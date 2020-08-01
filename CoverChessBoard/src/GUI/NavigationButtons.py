@@ -51,7 +51,7 @@ def create_computer_button(screen_manager):
                           background_down='',
                           background_color=(0, 0, 0.14, 1),
                           color=(1, 1, 1, 0.7))
-    computer_btn.bind(on_release = partial(navigate_computer_board, screen_manager))
+    computer_btn.bind(on_release=partial(navigate_computer_board, screen_manager))
     return computer_btn
 
 
