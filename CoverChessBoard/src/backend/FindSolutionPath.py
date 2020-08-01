@@ -2,6 +2,7 @@
 This module was built to encapsulate finding a list of moves covering the chess board from a file name.
 """
 
+
 def convert_str_list(string):
     """ Take a string that is itself a list of string ints and turn it into a list with string ints.
 
