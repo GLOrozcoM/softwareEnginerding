@@ -290,7 +290,6 @@ class Board():
         """
 
         # Where the piece was on the board
-        piece_square = piece.square
         occupied_square_index = board.children.index(piece)
         board.remove_widget(piece)
 
@@ -309,6 +308,29 @@ class Board():
 
         # Place a tinted square back on the board
         board.add_widget(occupied_square, occupied_square_index)
+        return
+
+    def remove_piece(self):
+        """ Take the piece away from the board and leave the square.
+
+        :param board: Board squares object.
+        :param piece: Piece to remove.
+        :return:
+        """
+        if self.piece is None:
+            return
+
+        # Where the piece was on the board
+        occupied_square_index = self.squares.children.index(self.piece)
+        self.squares.remove_widget(self.piece)
+
+        # Get the appropriate light or dark color for the square
+        # and create a new square
+        color = self.color_square(self.piece.square.position)
+        occupied_square = Square(self.piece.square.position, color)
+
+        # Place a square back on the board
+        self.squares.add_widget(occupied_square, occupied_square_index)
         return
 
     def find_square(self, i, j):
