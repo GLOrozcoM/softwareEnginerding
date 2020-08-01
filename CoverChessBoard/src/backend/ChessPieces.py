@@ -65,8 +65,8 @@ class Knight(Piece):
     def __init__(self):
         # White, or no tint on piece
         super().__init__(color=[1, 1, 1, 1])
-        self.background_normal = "../images/SimpleSet/knight_up.png"
-        self.background_down = "../images/SimpleSet/knight_down.png"
+        self.background_normal = "../../images/SimpleSet/knight_up.png"
+        self.background_down = "../../images/SimpleSet/knight_down.png"
 
     def make_move_list(self, squares):
         """ Create legal chess moves for the Knight.
