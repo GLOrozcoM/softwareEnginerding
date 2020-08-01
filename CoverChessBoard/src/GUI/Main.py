@@ -22,5 +22,7 @@ class ConquerChessBoard(App):
         return sm
 
 if __name__ == "__main__":
+    import os
+    print(os.getcwd())
     app = ConquerChessBoard()
     app.run()
