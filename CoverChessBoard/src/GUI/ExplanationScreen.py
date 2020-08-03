@@ -41,7 +41,7 @@ def create_explanation_layout(screen_manager):
     # Give background image to layout
     with layout.canvas.before:
         Color(0, 0, 0.14, 1)
-        rect = Rectangle(size=(1000, 1000),
+        rect = Rectangle(size=(5000, 5000),
                          pos=layout.pos)
 
     paragraph = create_paragraph()
