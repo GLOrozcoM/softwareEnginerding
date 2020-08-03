@@ -73,7 +73,8 @@ every square on the chess board. The only constraint is the knight must pass thr
 each square only once. Since the knight has a tricky movement scheme in chess, figuring
 out a path for covering each square in an 8 by 8 board (64 squares total) is not easy.
 
-I designed a GUI to explore this problem. The user can  
+I designed a GUI to explore this problem. The user can try solving the problem themselves
+or have a computer assist them.
 
 
 #### How to run
