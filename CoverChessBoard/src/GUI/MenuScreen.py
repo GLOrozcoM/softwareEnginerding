@@ -3,7 +3,6 @@ This module was built to contain the menu screen to navigate in the app.
 """
 from CoverChessBoard.src.GUI.NavigationButtons import *
 from kivy.uix.label import Label
-from kivy.uix.relativelayout import RelativeLayout
 from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.colorpicker import Color
 from kivy.graphics import Rectangle
