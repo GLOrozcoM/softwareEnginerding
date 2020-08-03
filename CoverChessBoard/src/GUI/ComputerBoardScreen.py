@@ -118,7 +118,6 @@ def create_solution_button():
     return start_btn
 
 
-# TODO callback
 def reset_button_callback(instance, screen_manager):
     """ Activate the board resetting process.
 
@@ -128,7 +127,7 @@ def reset_button_callback(instance, screen_manager):
     # -- go from current button, to grid layout, to screen
     layout_for_screen = instance.parent.parent
 
-    # Remove previous board items
+    # Remove previous board layout　and buttons
     layout_for_screen.children.pop()
     layout_for_screen.children.pop()
 
