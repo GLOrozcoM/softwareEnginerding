@@ -71,17 +71,35 @@ We used Slick2D as the base for the game development.
 A classic chess problem is the knight's tour. The player must use a knight to cover
 every square on the chess board. The only constraint is the knight must pass through 
 each square only once. Since the knight has a tricky movement scheme in chess, figuring
-out a path for covering each square in an 8 by 8 board (64 squares total) is not easy.
+out a path for covering each square in an 8 by 8 board (64 squares total) is hard.
 
-I designed a GUI to explore this problem. The user can try solving the problem themselves
-or have a computer assist them.
+I designed a GUI to explore this problem. In the first instance, a user can place a knight
+on any square on an 8 by 8 board and try solving the problem for themselves with a generous undo button.
 
+![user_knight](Images/user_knight.png)
+
+Or, they can just ask the computer to try solving the problem for them.
+
+![computer_knight](Images/comp_knight.png)
+
+Users can follow the path by observing the number count on each square. 
+Successive numbers mean consecutive square movements for the knight.
+
+#### A curious visualization
+
+I created a visualization that shows the number of paths available to the knight
+at each square (based on the output of my backtracking algorithm). 
+
+![path_number](Images/path_number.png)
 
 #### How to run
 
-Navigate to CoverChessBoard, src, GUI, and run main.py.
+Navigate to CoverChessBoard, src, GUI, and run Main.py.
 
 #### Packages used
 
 * kivy
 * collections
+* functools
+* time
+* networkx
