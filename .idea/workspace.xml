@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4c82b17f-c229-4ca1-8ca6-040ffe8332a3" name="Default" comment="Join welcome, main menu, and choose square screens.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +46,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Images" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.コンソール・フォント" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -59,17 +58,18 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Images" />
+      <recent name="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles" />
+      <recent name="$PROJECT_DIR$/CoverChessBoard" />
+      <recent name="$PROJECT_DIR$/CoverChessBoard/TestFiles" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/CoverChessBoard/src/backend" />
       <recent name="$PROJECT_DIR$/CoverChessBoard/src/GUI" />
       <recent name="$PROJECT_DIR$/CoverChessBoard/src" />
       <recent name="$PROJECT_DIR$/CoverChessBoard" />
       <recent name="$PROJECT_DIR$/CoverChessBoard/TestFiles/images/SimpleSet" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles" />
-      <recent name="$PROJECT_DIR$/CoverChessBoard" />
-      <recent name="$PROJECT_DIR$/CoverChessBoard/TestFiles" />
     </key>
   </component>
   <component name="RunManager" selected="Python.Main (1)">
@@ -243,11 +243,11 @@
     </configuration>
     <list>
       <item itemvalue="Python.test_reject" />
-      <item itemvalue="Python.Main" />
-      <item itemvalue="Python.ExplanationScreen" />
       <item itemvalue="Python.CheckPathsComplete" />
+      <item itemvalue="Python.ExplanationScreen" />
       <item itemvalue="Python.GenerateSolutionPaths" />
       <item itemvalue="Python.Main (1)" />
+      <item itemvalue="Python.Main" />
     </list>
     <recent_temporary>
       <list>
@@ -269,48 +269,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591310833293</updated>
-    </task>
-    <task id="LOCAL-00023" summary="Give piece an image (first version of piece representations)&#10;">
-      <created>1592777891588</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1592777891588</updated>
-    </task>
-    <task id="LOCAL-00024" summary="First version images for pieces&#10;">
-      <created>1592777912510</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1592777912510</updated>
-    </task>
-    <task id="LOCAL-00025" summary="First version images for pieces&#10;">
-      <created>1592777954559</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1592777954559</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Made move constriction for King and Rook&#10;">
-      <created>1592863834124</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1592863834126</updated>
-    </task>
-    <task id="LOCAL-00027" summary="Made move construction for BIshop, Pawn, Queen, and Knight&#10;">
-      <created>1592866659210</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1592866659210</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Initial version for having the piece move automatically through a list of moves.">
-      <created>1593024049910</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1593024049910</updated>
     </task>
     <task id="LOCAL-00029" summary="Made move iteration through list and simple hard coded column traversal for king, queen, and rook&#10;">
       <created>1593037888887</created>
@@ -613,7 +571,49 @@
       <option name="project" value="LOCAL" />
       <updated>1596415923320</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="Remove project and update knight tour">
+      <created>1596416757894</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1596416757894</updated>
+    </task>
+    <task id="LOCAL-00073" summary="Complete sentence">
+      <created>1596416840762</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1596416840762</updated>
+    </task>
+    <task id="LOCAL-00074" summary="Update readme with images">
+      <created>1596497140370</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1596497140371</updated>
+    </task>
+    <task id="LOCAL-00075" summary="Remove commented line">
+      <created>1596497154874</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1596497154874</updated>
+    </task>
+    <task id="LOCAL-00076" summary="Format">
+      <created>1596497187550</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1596497187550</updated>
+    </task>
+    <task id="LOCAL-00077" summary="Remove unused layout">
+      <created>1596497206969</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1596497206969</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -637,12 +637,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Develop welcome and menu screen.&#10;Join them via button binding." />
-    <MESSAGE value="Join welcome, main menu, and choose square screens." />
-    <MESSAGE value="Provided images to old files to avoid path configs. &#10;Add an empty board to pick piece placement and included start button to set off the solution." />
-    <MESSAGE value="Added feature to see solution path for any placement on board." />
-    <MESSAGE value="Refactoring" />
-    <MESSAGE value="Made a board screen class that holds the board. &#10;Solution can now be seen if piece placed on board. &#10;Added the ability to see movement count." />
     <MESSAGE value="Added self updating move count so that the player board can also work well." />
     <MESSAGE value="Migrated screen making to classes outside of main" />
     <MESSAGE value="Made undo button for movement." />
@@ -662,7 +656,13 @@
     <MESSAGE value="Remove testing statements" />
     <MESSAGE value="Maintain color in full screen" />
     <MESSAGE value="Maintain layout when resizing window" />
-    <option name="LAST_COMMIT_MESSAGE" value="Maintain layout when resizing window" />
+    <MESSAGE value="Remove project and update knight tour" />
+    <MESSAGE value="Complete sentence" />
+    <MESSAGE value="Update readme with images" />
+    <MESSAGE value="Remove commented line" />
+    <MESSAGE value="Format" />
+    <MESSAGE value="Remove unused layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove unused layout" />
   </component>
   <component name="WindowStateProjectService">
     <state x="185" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595595944783">
@@ -673,30 +673,35 @@
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="393" y="231" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.797@0.23.1440.797" timestamp="1595546092271" />
-    <state x="102" y="124" width="1238" height="596" key="DiffContextDialog" timestamp="1596414815597">
+    <state x="102" y="104" width="1238" height="614" key="DiffContextDialog" timestamp="1596497292095">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state x="102" y="124" width="1238" height="596" key="DiffContextDialog/0.23.1440.797@0.23.1440.797" timestamp="1596414815597" />
+    <state x="102" y="104" width="1238" height="614" key="DiffContextDialog/0.0.1440.820@0.0.1440.820" timestamp="1596497212357" />
+    <state x="102" y="104" width="1238" height="614" key="DiffContextDialog/0.23.1440.797@0.23.1440.797" timestamp="1596497292095" />
     <state x="507" y="183" key="FileChooserDialogImpl" timestamp="1594516011105">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="507" y="183" key="FileChooserDialogImpl/0.23.1440.797@0.23.1440.797" timestamp="1594516011105" />
-    <state width="1417" height="229" key="GridCell.Tab.0.bottom" timestamp="1596415841595">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state width="1419" height="189" key="GridCell.Tab.0.bottom" timestamp="1596497208953">
+      <screen x="0" y="0" width="1440" height="820" />
     </state>
-    <state width="1417" height="229" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1596415841595" />
-    <state width="1417" height="229" key="GridCell.Tab.0.center" timestamp="1596415841594">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state width="1419" height="189" key="GridCell.Tab.0.bottom/0.0.1440.820@0.0.1440.820" timestamp="1596497208953" />
+    <state width="1417" height="189" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1596416984128" />
+    <state width="1419" height="189" key="GridCell.Tab.0.center" timestamp="1596497208952">
+      <screen x="0" y="0" width="1440" height="820" />
     </state>
-    <state width="1417" height="229" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1596415841594" />
-    <state width="1417" height="229" key="GridCell.Tab.0.left" timestamp="1596415841593">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state width="1419" height="189" key="GridCell.Tab.0.center/0.0.1440.820@0.0.1440.820" timestamp="1596497208952" />
+    <state width="1417" height="189" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1596416984126" />
+    <state width="1419" height="189" key="GridCell.Tab.0.left" timestamp="1596497208951">
+      <screen x="0" y="0" width="1440" height="820" />
     </state>
-    <state width="1417" height="229" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1596415841593" />
-    <state width="1417" height="229" key="GridCell.Tab.0.right" timestamp="1596415841594">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state width="1419" height="189" key="GridCell.Tab.0.left/0.0.1440.820@0.0.1440.820" timestamp="1596497208951" />
+    <state width="1417" height="189" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1596416984125" />
+    <state width="1419" height="189" key="GridCell.Tab.0.right" timestamp="1596497208953">
+      <screen x="0" y="0" width="1440" height="820" />
     </state>
-    <state width="1417" height="229" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1596415841594" />
+    <state width="1419" height="189" key="GridCell.Tab.0.right/0.0.1440.820@0.0.1440.820" timestamp="1596497208953" />
+    <state width="1417" height="189" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1596416984127" />
     <state width="1417" height="253" key="GridCell.Tab.1.bottom" timestamp="1594655095548">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
