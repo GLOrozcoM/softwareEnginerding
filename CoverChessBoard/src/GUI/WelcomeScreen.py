@@ -28,7 +28,7 @@ def create_menu_button(screen_manager):
     :return:
     """
     continue_btn = Button(text="Press here to start",
-                          pos=(325, 250),
+                          pos=(300, 260),
                           size_hint=(0.2, 0.2),
                           background_normal='',
                           background_down='',
@@ -95,7 +95,7 @@ def generate_layout():
     # Give background image to layout
     with layout.canvas.before:
         Color(0, 0, 0.14, 1)
-        rect = Rectangle(size=(1000, 1000),
+        rect = Rectangle(size=(5000, 5000),
                          pos=layout.pos)
     return layout
 
