@@ -3,7 +3,8 @@ This module was built to contain the first screen to welcome user.
 """
 from kivy.uix.button import Button
 from kivy.uix.label import Label
-from kivy.uix.relativelayout import RelativeLayout
+from kivy.uix.boxlayout import BoxLayout
+from kivy.uix.anchorlayout import AnchorLayout
 from kivy.uix.colorpicker import Color
 from kivy.graphics import Rectangle
 from functools import partial
@@ -28,8 +29,6 @@ def create_menu_button(screen_manager):
     :return:
     """
     continue_btn = Button(text="Press here to start",
-                          pos=(300, 260),
-                          size_hint=(0.2, 0.2),
                           background_normal='',
                           background_down='',
                           background_color=(0, 0, 0.14, 1),
@@ -91,7 +90,7 @@ def generate_layout():
 
     :return: A layout to place welcome screen items on.
     """
-    layout = RelativeLayout()
+    layout = BoxLayout(orientation="horizontal")
     # Give background image to layout
     with layout.canvas.before:
         Color(0, 0, 0.14, 1)
@@ -101,26 +100,34 @@ def generate_layout():
 
 
 def create_welcome_layout(screen_manager):
-    """ Bring together items for the layout in the welcome screen.
+    """ Bring together items for the general_layout in the welcome screen.
 
     :param screen_manager: The manager for screens in the application.
-    :return: A layout containing the welcome screen.
+    :return: A general_layout containing the welcome screen.
     """
-    layout = generate_layout()
+    general_layout = generate_layout()
 
-    continue_btn = create_menu_button(screen_manager)
+    author_layout = AnchorLayout(anchor_x="center", anchor_y="bottom")
     author = create_author()
+    author_layout.add_widget(author)
+
+    button_title_layout = BoxLayout(orientation="vertical")
     title = create_title()
     subtitle = create_subtitle()
+    continue_btn = create_menu_button(screen_manager)
+    button_title_layout.add_widget(title)
+    button_title_layout.add_widget(subtitle)
+    button_title_layout.add_widget(continue_btn)
+
+    version_layout = AnchorLayout(anchor_x="center", anchor_y="bottom")
     version = create_version()
+    version_layout.add_widget(version)
 
-    layout.add_widget(continue_btn)
-    layout.add_widget(author)
-    layout.add_widget(title)
-    layout.add_widget(subtitle)
-    layout.add_widget(version)
+    general_layout.add_widget(author_layout)
+    general_layout.add_widget(button_title_layout)
+    general_layout.add_widget(version_layout)
 
-    return layout
+    return general_layout
 
 
 def setup_welcome_screen(screen_manager):
