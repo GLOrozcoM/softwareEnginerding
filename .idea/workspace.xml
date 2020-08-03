@@ -20,32 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c82b17f-c229-4ca1-8ca6-040ffe8332a3" name="Default" comment="Join welcome, main menu, and choose square screens.">
-      <change afterPath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/EmptyBoard.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/images/GlassSet/bishop_down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/images/GlassSet/bishop_up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/images/GlassSet/complete_set.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/images/GlassSet/king_down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/images/GlassSet/king_up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/images/GlassSet/knight_down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/images/GlassSet/knight_up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/images/GlassSet/pawn_down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/images/GlassSet/pawn_up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/images/GlassSet/queen_down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/images/GlassSet/queen_up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/images/GlassSet/rook_down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/images/GlassSet/rook_up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/images/SimpleSet/complete_set_og.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/images/SimpleSet/king_down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/images/SimpleSet/king_up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/images/SimpleSet/knight_down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/images/SimpleSet/knight_up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/images/SimpleSet/queen_down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/images/SimpleSet/queen_up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/images/SimpleSet/rook_down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/images/SimpleSet/rook_up.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/ChooseSquareScreen.py" beforeDir="false" afterPath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/ChooseSquareScreen.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/Main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,20 +59,20 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/CoverChessBoard/src/backend" />
+      <recent name="$PROJECT_DIR$/CoverChessBoard/src/GUI" />
+      <recent name="$PROJECT_DIR$/CoverChessBoard/src" />
+      <recent name="$PROJECT_DIR$/CoverChessBoard" />
+      <recent name="$PROJECT_DIR$/CoverChessBoard/TestFiles/images/SimpleSet" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles" />
       <recent name="$PROJECT_DIR$/CoverChessBoard" />
       <recent name="$PROJECT_DIR$/CoverChessBoard/TestFiles" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/CoverChessBoard/TestFiles/images/SimpleSet" />
-      <recent name="$PROJECT_DIR$/CoverChessBoard/TestFiles/images" />
-      <recent name="$PROJECT_DIR$/CoverChessBoard/TestFiles" />
-      <recent name="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles" />
-      <recent name="$PROJECT_DIR$/CoverChessBoard/images" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python.Main">
+  <component name="RunManager" selected="Python.Main (1)">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -116,7 +92,7 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration name="DevelopScreenSwitch" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="CheckPathsComplete" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftwareEnginerding" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -124,11 +100,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CoverChessBoard/src" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/DevelopScreenSwitch.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CoverChessBoard/src/backend/CheckPathsComplete.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -137,7 +113,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="EmptyBoard" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ExplanationScreen" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftwareEnginerding" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -149,7 +125,50 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/EmptyBoard.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/ExplanationScreen.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="GenerateSolutionPaths" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <output_file path="$PROJECT_DIR$/CoverChessBoard/SolutionPaths/knight_tour.txt" is_save="true" />
+      <module name="SoftwareEnginerding" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CoverChessBoard" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CoverChessBoard/src/backend/GenerateSolutionPaths.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SoftwareEnginerding" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CoverChessBoard/src/GUI" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CoverChessBoard/src/GUI/Main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -179,7 +198,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="MenuScreen" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SoftwareEnginerding" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -187,32 +206,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CoverChessBoard/dev" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/MenuScreen.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="WelcomeScreen" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SoftwareEnginerding" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CoverChessBoard/DevelopmentFiles/WelcomeScreen.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CoverChessBoard/src/GUI/Main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -245,19 +243,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.test_reject" />
-      <item itemvalue="Python.DevelopScreenSwitch" />
-      <item itemvalue="Python.WelcomeScreen" />
-      <item itemvalue="Python.MenuScreen" />
       <item itemvalue="Python.Main" />
-      <item itemvalue="Python.EmptyBoard" />
+      <item itemvalue="Python.ExplanationScreen" />
+      <item itemvalue="Python.CheckPathsComplete" />
+      <item itemvalue="Python.GenerateSolutionPaths" />
+      <item itemvalue="Python.Main (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Main (1)" />
+        <item itemvalue="Python.GenerateSolutionPaths" />
         <item itemvalue="Python.Main" />
-        <item itemvalue="Python.EmptyBoard" />
-        <item itemvalue="Python.MenuScreen" />
-        <item itemvalue="Python.WelcomeScreen" />
-        <item itemvalue="Python.DevelopScreenSwitch" />
+        <item itemvalue="Python.CheckPathsComplete" />
+        <item itemvalue="Python.ExplanationScreen" />
       </list>
     </recent_temporary>
   </component>
@@ -271,160 +269,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591310833293</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Removed unused files. &#10;">
-      <created>1591310876202</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1591310876202</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Include images of FlatQuest. &#10;Update Readme for FlatQuest.&#10;">
-      <created>1591312544281</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1591312544281</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Fixed markup.&#10;">
-      <created>1591312646573</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1591312646573</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Add more info for Ecopoetics project to readme.&#10;">
-      <created>1591467721385</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1591467721385</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Make pics visible.&#10;">
-      <created>1591468003904</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1591468003904</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Add to RandomPoetry.&#10;&#10;">
-      <created>1591470376363</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1591470376363</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Remove extraneous code.&#10;&#10;">
-      <created>1591470389122</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1591470389122</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Images and extra poetry files.&#10;&#10;">
-      <created>1591470423500</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1591470423500</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Typo">
-      <created>1591470478519</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1591470478519</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Add gameplay and image. &#10;&#10;">
-      <created>1591914826488</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1591914826488</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Introduced development of cover chess board project.">
-      <created>1592087647329</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1592087647329</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Directories&#10;&#10;">
-      <created>1592088048450</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1592088048450</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Make a board for the pieces&#10;">
-      <created>1592445740262</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1592445740262</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Created functions to make chess board. &#10;Working on making a board class.&#10;">
-      <created>1592459949859</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1592459949859</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Made board class. Board now callable as an object.&#10;">
-      <created>1592518656790</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1592518656790</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Made toggling for piece object. &#10;">
-      <created>1592522608554</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1592522608554</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Experimenting with children widgets.&#10;">
-      <created>1592531066316</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1592531066316</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Simplified board with grid layout. &#10;Made a determine square function.&#10;">
-      <created>1592612101467</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1592612101467</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Place a piece ona board through matrix notation&#10;">
-      <created>1592631718920</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1592631718920</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Move a piece on a board and maintain the original board&#10;">
-      <created>1592718659487</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1592718659487</updated>
-    </task>
-    <task id="LOCAL-00021" summary="Refactored&#10;">
-      <created>1592762330959</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1592762330959</updated>
-    </task>
-    <task id="LOCAL-00022" summary="Give piece an image&#10;">
-      <created>1592776171421</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1592776171421</updated>
     </task>
     <task id="LOCAL-00023" summary="Give piece an image (first version of piece representations)&#10;">
       <created>1592777891588</created>
@@ -580,7 +424,196 @@
       <option name="project" value="LOCAL" />
       <updated>1594610417045</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Provided images to old files to avoid path configs. &#10;Add an empty board to pick piece placement and included start button to set off the solution.">
+      <created>1594621872122</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1594621872122</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Added feature to see solution path for any placement on board.">
+      <created>1595200342947</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1595200342947</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Refactoring">
+      <created>1595373613730</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1595373613730</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Made a board screen class that holds the board. &#10;Solution can now be seen if piece placed on board. &#10;Added the ability to see movement count.">
+      <created>1595463952191</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1595463952191</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Added self updating move count so that the player board can also work well.">
+      <created>1595464192088</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1595464192088</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Migrated screen making to classes outside of main">
+      <created>1595537087534</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1595537087535</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Made undo button for movement.">
+      <created>1595541834127</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1595541834127</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Give back button to navigate to menu screen.">
+      <created>1595544392643</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1595544392643</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Wrote explanation screen.">
+      <created>1595546985879</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1595546985879</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Refactored">
+      <created>1595597342294</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1595597342294</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Refactored">
+      <created>1595626232511</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1595626232512</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Refactored">
+      <created>1595629041889</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1595629041889</updated>
+    </task>
+    <task id="LOCAL-00057" summary="An awesome analysis of the solutions generated.">
+      <created>1595634178359</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1595634178359</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Modify paths.">
+      <created>1595634692648</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1595634692648</updated>
+    </task>
+    <task id="LOCAL-00059" summary="path check">
+      <created>1596256119313</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1596256119313</updated>
+    </task>
+    <task id="LOCAL-00060" summary="proper path">
+      <created>1596256126071</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1596256126071</updated>
+    </task>
+    <task id="LOCAL-00061" summary="none">
+      <created>1596256159932</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1596256159932</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Add reset board button">
+      <created>1596256171470</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1596256171470</updated>
+    </task>
+    <task id="LOCAL-00063" summary="proper path">
+      <created>1596256181508</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1596256181508</updated>
+    </task>
+    <task id="LOCAL-00064" summary="a remove function for the piece">
+      <created>1596256204046</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1596256204046</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Clearer comment">
+      <created>1596414516546</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1596414516547</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Make background bigger for full screen.">
+      <created>1596414542618</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1596414542618</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Give a reset button for board">
+      <created>1596414779148</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1596414779148</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Remove testing statements">
+      <created>1596414788039</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1596414788039</updated>
+    </task>
+    <task id="LOCAL-00069" summary="Maintain color in full screen">
+      <created>1596414971421</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1596414971421</updated>
+    </task>
+    <task id="LOCAL-00070" summary="Maintain layout when resizing window">
+      <created>1596415388923</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1596415388923</updated>
+    </task>
+    <task id="LOCAL-00071" summary="Maintain layout when resizing window">
+      <created>1596415923320</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1596415923320</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -604,78 +637,90 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Experimenting with children widgets.&#10;" />
-    <MESSAGE value="Simplified board with grid layout. &#10;Made a determine square function.&#10;" />
-    <MESSAGE value="Place a piece ona board through matrix notation&#10;" />
-    <MESSAGE value="Move a piece on a board and maintain the original board&#10;" />
-    <MESSAGE value="Give piece an image&#10;" />
-    <MESSAGE value="Give piece an image (first version of piece representations)&#10;" />
-    <MESSAGE value="First version images for pieces&#10;" />
-    <MESSAGE value="Made move constriction for King and Rook&#10;" />
-    <MESSAGE value="Made move construction for BIshop, Pawn, Queen, and Knight&#10;" />
-    <MESSAGE value="Initial version for having the piece move automatically through a list of moves." />
-    <MESSAGE value="Made move iteration through list and simple hard coded column traversal for king, queen, and rook&#10;" />
-    <MESSAGE value="Refactored&#10;" />
-    <MESSAGE value="Initial coding of warndsorff rule to solve the knight's tour. Works on 5, but fails on 8.&#10;" />
-    <MESSAGE value="Debugging warnsdorff implementation&#10;" />
-    <MESSAGE value="Experimenting with backtracking algorithm on 5 and 8 dim board&#10;" />
-    <MESSAGE value="Confirmed 8 by 8 backtracking version contains solutions for every square." />
-    <MESSAGE value="Output file for backtracking algorithm." />
-    <MESSAGE value="Make a binary search implementation for finding the solution path." />
-    <MESSAGE value="Refactored." />
-    <MESSAGE value="Image file upload." />
-    <MESSAGE value="Refactored" />
-    <MESSAGE value="Implemented minimal concept to switch between screens." />
-    <MESSAGE value="Remove excess lines." />
     <MESSAGE value="Develop welcome and menu screen.&#10;Join them via button binding." />
     <MESSAGE value="Join welcome, main menu, and choose square screens." />
-    <option name="LAST_COMMIT_MESSAGE" value="Join welcome, main menu, and choose square screens." />
+    <MESSAGE value="Provided images to old files to avoid path configs. &#10;Add an empty board to pick piece placement and included start button to set off the solution." />
+    <MESSAGE value="Added feature to see solution path for any placement on board." />
+    <MESSAGE value="Refactoring" />
+    <MESSAGE value="Made a board screen class that holds the board. &#10;Solution can now be seen if piece placed on board. &#10;Added the ability to see movement count." />
+    <MESSAGE value="Added self updating move count so that the player board can also work well." />
+    <MESSAGE value="Migrated screen making to classes outside of main" />
+    <MESSAGE value="Made undo button for movement." />
+    <MESSAGE value="Give back button to navigate to menu screen." />
+    <MESSAGE value="Wrote explanation screen." />
+    <MESSAGE value="Refactored" />
+    <MESSAGE value="An awesome analysis of the solutions generated." />
+    <MESSAGE value="Modify paths." />
+    <MESSAGE value="path check" />
+    <MESSAGE value="none" />
+    <MESSAGE value="Add reset board button" />
+    <MESSAGE value="proper path" />
+    <MESSAGE value="a remove function for the piece" />
+    <MESSAGE value="Clearer comment" />
+    <MESSAGE value="Make background bigger for full screen." />
+    <MESSAGE value="Give a reset button for board" />
+    <MESSAGE value="Remove testing statements" />
+    <MESSAGE value="Maintain color in full screen" />
+    <MESSAGE value="Maintain layout when resizing window" />
+    <option name="LAST_COMMIT_MESSAGE" value="Maintain layout when resizing window" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="185" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595595944783">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="185" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.797@0.23.1440.797" timestamp="1595595944783" />
+    <state x="393" y="231" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595546092271">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="393" y="231" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.797@0.23.1440.797" timestamp="1595546092271" />
+    <state x="102" y="124" width="1238" height="596" key="DiffContextDialog" timestamp="1596414815597">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="102" y="124" width="1238" height="596" key="DiffContextDialog/0.23.1440.797@0.23.1440.797" timestamp="1596414815597" />
     <state x="507" y="183" key="FileChooserDialogImpl" timestamp="1594516011105">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="507" y="183" key="FileChooserDialogImpl/0.23.1440.797@0.23.1440.797" timestamp="1594516011105" />
-    <state width="1417" height="229" key="GridCell.Tab.0.bottom" timestamp="1594621447297">
+    <state width="1417" height="229" key="GridCell.Tab.0.bottom" timestamp="1596415841595">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1417" height="229" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1594621447297" />
-    <state width="1417" height="229" key="GridCell.Tab.0.center" timestamp="1594621447295">
+    <state width="1417" height="229" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1596415841595" />
+    <state width="1417" height="229" key="GridCell.Tab.0.center" timestamp="1596415841594">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1417" height="229" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1594621447295" />
-    <state width="1417" height="229" key="GridCell.Tab.0.left" timestamp="1594621447295">
+    <state width="1417" height="229" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1596415841594" />
+    <state width="1417" height="229" key="GridCell.Tab.0.left" timestamp="1596415841593">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1417" height="229" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1594621447295" />
-    <state width="1417" height="229" key="GridCell.Tab.0.right" timestamp="1594621447296">
+    <state width="1417" height="229" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1596415841593" />
+    <state width="1417" height="229" key="GridCell.Tab.0.right" timestamp="1596415841594">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1417" height="229" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1594621447296" />
-    <state width="1417" height="253" key="GridCell.Tab.1.bottom" timestamp="1594620471735">
+    <state width="1417" height="229" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1596415841594" />
+    <state width="1417" height="253" key="GridCell.Tab.1.bottom" timestamp="1594655095548">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1417" height="253" key="GridCell.Tab.1.bottom/0.23.1440.797@0.23.1440.797" timestamp="1594620471735" />
-    <state width="1417" height="253" key="GridCell.Tab.1.center" timestamp="1594620471733">
+    <state width="1417" height="253" key="GridCell.Tab.1.bottom/0.23.1440.797@0.23.1440.797" timestamp="1594655095548" />
+    <state width="1417" height="253" key="GridCell.Tab.1.center" timestamp="1594655095547">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1417" height="253" key="GridCell.Tab.1.center/0.23.1440.797@0.23.1440.797" timestamp="1594620471733" />
-    <state width="1417" height="253" key="GridCell.Tab.1.left" timestamp="1594620471732">
+    <state width="1417" height="253" key="GridCell.Tab.1.center/0.23.1440.797@0.23.1440.797" timestamp="1594655095547" />
+    <state width="1417" height="253" key="GridCell.Tab.1.left" timestamp="1594655095547">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1417" height="253" key="GridCell.Tab.1.left/0.23.1440.797@0.23.1440.797" timestamp="1594620471732" />
-    <state width="1417" height="253" key="GridCell.Tab.1.right" timestamp="1594620471734">
+    <state width="1417" height="253" key="GridCell.Tab.1.left/0.23.1440.797@0.23.1440.797" timestamp="1594655095547" />
+    <state width="1417" height="253" key="GridCell.Tab.1.right" timestamp="1594655095548">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1417" height="253" key="GridCell.Tab.1.right/0.23.1440.797@0.23.1440.797" timestamp="1594620471734" />
+    <state width="1417" height="253" key="GridCell.Tab.1.right/0.23.1440.797@0.23.1440.797" timestamp="1594655095548" />
     <state x="229" y="60" key="SettingsEditor" timestamp="1594523189417">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="229" y="60" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1594523189417" />
-    <state x="386" y="144" width="670" height="676" key="search.everywhere.popup" timestamp="1594618759284">
+    <state x="386" y="144" width="670" height="676" key="search.everywhere.popup" timestamp="1595628977809">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state x="386" y="144" width="670" height="676" key="search.everywhere.popup/0.23.1440.797@0.23.1440.797" timestamp="1594618759284" />
+    <state x="386" y="144" width="670" height="676" key="search.everywhere.popup/0.23.1440.797@0.23.1440.797" timestamp="1595628977809" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -5,17 +5,16 @@ This repository contains projects I contributed to or personally completed in so
 ## Table of contents
 * [General info](#general-info)
 * [FlatQuest](#FlatQuest)
-* [Poetry Projects](#Poetry-Projects)
-* [Cover Chess Board](#Cover-Chess-Board)
+* [Conquer the Chess Board](#Cover-Chess-Board)
 
 ## General Info
 
-I worked on these projects in college (2017 - 2018). [FlatQuest](#FlatQuest)
+[FlatQuest](#FlatQuest) (2017)
 was a culminating project for a software engineering course designed
 to teach fundamental development practices. I GitHubbed and Scrummed for this project in a team with three other undergraduate
-students. [Poetry Projects](#Poetry-projects) arose naturally as part of two poetry courses
-I took (Ecopoetics and Advanced Poetry). While not required for the courses, I decided
-spicing up poetry with computer science (and vice versa) would make everything more interesting.
+students. [Conquer the Chess Board](#Cover-Chess-Board) (2020) came about after wondering how 
+I could solve the knight's tour, and realizing a computer would make it all easier.
+I implemented a backtracking algorithm and designed a GUI to visualize the solution.
 
 ## FlatQuest
 
@@ -67,74 +66,21 @@ The music used for the game is by Dexter Britain and is under a cc license (chec
 
 We used Slick2D as the base for the game development.
 
-## Poetry Projects
+## Conquer the Chess Board
 
-Is writing code poetry or is poetry writing code? I think the answer is yes. In these projects, I explore how coding aids and eventually becomes poetry.
+A classic chess problem is the knight's tour. The player must use a knight to cover
+every square on the chess board. The only constraint is the knight must pass through 
+each square only once. Since the knight has a tricky movement scheme in chess, figuring
+out a path for covering each square in an 8 by 8 board (64 squares total) is not easy.
 
-### Ecopoetics - poetry about and with the coding environment
+I designed a GUI to explore this problem. The user can  
 
-I created a GUI as an experiential add on to the poetry I wrote in a college class.
-The overall experience requires an understanding of source code, and a constant back and forth between GUI and source code.
 
-The first stage of the GUI will leave you perplexed (as it should).
+#### How to run
 
-![Entry](Images/EntryPoetry.png)
-
-You can hover over buttons and see the text change. Clicking on the buttons reveals texts, and you can
-try writing in the search box to see if you can move forward. You'll find that trying to figure out how to
-proceed becomes easier after looking at the source. It may offer hints as how to progress.
-
-![Source](Images/Source.png)
-
-A text and spacing randomizer also produces poetry every time a button is pressed.
-The randomizer takes text from poetry already written and combines it in unexpected ways.
-
-![Waterfall](Images/WaterfallText.png)
-
-The final reward is seeing pages of the original handwritten poetry.
-
-![OriginalPage](Images/OriginalPage.png)
-
-How long will it take you to get there?
-
-#### How to access
-
-Navigate to the Ecopoetics folder and run 'A house of nodes.py'.
+Navigate to CoverChessBoard, src, GUI, and run main.py.
 
 #### Packages used
 
-* tkinter
-* random
-
-### RandomPoetry - eliminating choice
-
-Artists regularly talk about the importance of choice in their work. Photographers choose what
-to take a snapshot of, musicians decide how to combine notes, and coders enjoy free reign in
-designing programs.
-
-I thought having a program decide randomly on what to write poetry about would yield interesting.
-Here's one example.
-
-![SampleRandom](Images/SampleRandom.png)
-
-The program takes previously written poetry and tries to put it together in a new
-random way. In some cases (like above), it almost feels like it could make sense.
-In others, it feels eerie.
-
-![EndgameSample](Images/EndgameSample.png)
-
-#### How to access
-
-Navigate to RandomPoetry and open Briefcase.py for code. To see the poetry produced
-by the code, take a look at any text file having 'Investigate' in it (the Experiments
-directory contains a number of these).
-
-#### Packages used
-
-* random
-
-## Cover Chess Board
-
-This project is still in development. I intend on developing a GUI to interact with
-pieces on a chess board and classic problems in chess where you have to cover every
-square of the board.
+* kivy
+* collections
