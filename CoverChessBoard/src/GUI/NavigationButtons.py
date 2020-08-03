@@ -45,8 +45,6 @@ def create_computer_button(screen_manager):
     :return: The button to take the user to the computer generated solution.
     """
     computer_btn = Button(text="Have the computer conquer for you",
-                          pos=(325, 110),
-                          size_hint=(0.2, 0.2),
                           background_normal='',
                           background_down='',
                           background_color=(0, 0, 0.14, 1),
@@ -62,8 +60,6 @@ def create_player_button(screen_manager):
     :return: The button to take the user to the player board.
     """
     conquer_btn = Button(text="Try to conquer the board yourself",
-                         pos=(325, 210),
-                         size_hint=(0.2, 0.2),
                          background_normal='',
                          background_down='',
                          background_color=(0, 0, 0.14, 1),
@@ -79,8 +75,6 @@ def create_concept_button(screen_manager):
     :return: Button taking the user to the explanation.
     """
     concept_btn = Button(text="Get the process explained",
-                         pos=(325, 310),
-                         size_hint=(0.2, 0.2),
                          background_normal='',
                          background_down='',
                          background_color=(0, 0, 0.14, 1),

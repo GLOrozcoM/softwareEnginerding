@@ -4,6 +4,7 @@ This module was built to contain the menu screen to navigate in the app.
 from CoverChessBoard.src.GUI.NavigationButtons import *
 from kivy.uix.label import Label
 from kivy.uix.relativelayout import RelativeLayout
+from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.colorpicker import Color
 from kivy.graphics import Rectangle
 from kivy.uix.screenmanager import Screen
@@ -15,7 +16,6 @@ def create_title():
     :return: Label
     """
     title_lbl = Label(text="What would you like to do?",
-                      pos=(0, 250),
                       font_size='40sp',
                       color=(1, 1, 1, 0.7))
     return title_lbl
@@ -26,11 +26,11 @@ def generate_layout():
 
     :return: A RelativeLayout to contain the navigation buttons.
     """
-    layout = RelativeLayout()
+    layout = BoxLayout(orientation="vertical")
     # Give background image to layout
     with layout.canvas.before:
         Color(0, 0, 0.14, 1)
-        rect = Rectangle(size=(1000, 1000),
+        rect = Rectangle(size=(5000, 5000),
                          pos=layout.pos)
     return layout
 
